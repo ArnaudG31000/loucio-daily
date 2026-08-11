@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Publication automatique des carrousels Loucio sur Instagram.
-Tourne dans GitHub Actions. Slots : matin (évangile, 6h30) / soir (récit ou réponse, 21h).
-"""
+"""Publication automatique des carrousels Loucio sur Instagram (GitHub Actions)."""
 import argparse, json, os, subprocess, sys, time
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -28,7 +25,7 @@ def api(method, path, **params):
         raise RuntimeError(f"Instagram API error on {path}: {data['error']}")
     return data
 
-def wait_container(cid, timeout=180):
+def wait_container(cid, timeout=240):
     t0 = time.time()
     while time.time() - t0 < timeout:
         st = api("GET", cid, fields="status_code").get("status_code")
@@ -65,13 +62,23 @@ def publish_carousel(image_paths, caption):
         log(f"container image: {url}")
         res = api("POST", "me/media", image_url=url, is_carousel_item="true")
         children.append(res["id"])
+    for cid in children:
+        wait_container(cid)
     log("container carrousel…")
     car = api("POST", "me/media", media_type="CAROUSEL",
               children=",".join(children), caption=caption)
     wait_container(car["id"])
-    pub = api("POST", "me/media_publish", creation_id=car["id"])
-    log(f"PUBLIÉ ✔ media id {pub['id']}")
-    return pub["id"]
+    last_err = None
+    for attempt in range(12):
+        try:
+            pub = api("POST", "me/media_publish", creation_id=car["id"])
+            log(f"PUBLIÉ ✔ media id {pub['id']}")
+            return pub["id"]
+        except RuntimeError as e:
+            last_err = e
+            log(f"média pas encore prêt (tentative {attempt+1}/12), nouvel essai dans 15s…")
+            time.sleep(15)
+    raise last_err
 
 def main():
     ap = argparse.ArgumentParser()
@@ -79,7 +86,7 @@ def main():
     args = ap.parse_args()
 
     now = datetime.now(PARIS)
-    slot = args.slot
+    slot = args.slot.strip()
     if slot == "auto":
         if 5 <= now.hour <= 9:
             slot = "matin"
