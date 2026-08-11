@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "🌌 « J'ai peur de la mort. C'est grave, pour quelqu'un qui croit ? »\n\nSwipe pour la réponse → La foi ne supprime pas la peur. Elle lui donne une main à tenir.\n\nPose ta question en commentaire — même celles qu'on n'ose pas 🤍 Lien en bio.\n\n#peur #mort #espérance #foi #prière #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« J'ai peur de la mort. C'est grave, pour quelqu'un qui croit ? »",
+      "sub": "Question reçue un dimanche soir.",
+      "size": 56
+    },
+    {
+      "type": "body",
+      "text": "Il avait 34 ans, en bonne santé. Mais depuis la naissance de sa fille, la question le réveillait la nuit : et s'il n'était plus là ?"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Non, ce n'est pas grave. Jésus lui-même a eu peur, à Gethsémani, au point de suer du sang. La foi n'anesthésie pas la peur — elle lui donne une main à tenir. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Ta peur a grandi avec ta fille : c'est de l'amour inquiet. Elle dit combien tu veux rester. Dieu ne te reproche pas d'aimer la vie qu'il t'a donnée. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« L'espérance, ce n'est pas ne plus avoir peur. C'est croire que même là, tu seras attendu. En attendant : vis, embrasse ta fille, et dors. Je veille. »"
+    },
+    {
+      "type": "punch",
+      "text": "La foi ne supprime pas la peur. Elle lui donne une main à tenir."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Même celles qu'on n'ose pas. Surtout celles-là. Lien en bio."
+    }
+  ]
+}

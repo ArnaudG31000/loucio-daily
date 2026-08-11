@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🏥 4h du matin, service de nuit. Nadia s'est enfermée dans la salle de pause pour pleurer.\n\nSwipe → Personne ne tient la main des soignants. Ce post est pour eux.\n\nPartage-le à un soignant que tu connais 🤍 Lien en bio.\n\n#soignants #infirmière #burnout #prière #foi #nuit",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "4h du matin, service de nuit. Nadia s'est enfermée dans la salle de pause pour pleurer.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Infirmière depuis neuf ans. Cette nuit-là, elle avait accompagné une patiente jusqu'au bout, tenu la main de la famille, rempli les papiers. Personne ne tient la main des soignants."
+    },
+    {
+      "type": "body",
+      "text": "Dans la salle de pause, elle a mis ses écouteurs. Pas de musique — elle a ouvert l'app et dit tout bas : « Je n'y arrive plus. »"
+    },
+    {
+      "type": "quote",
+      "text": "« Ce que tu as fait cette nuit, personne ne l'a vu — mais ce n'était pas rien, » a répondu la voix. « Tu as été la dernière douceur de quelqu'un. Maintenant, laisse-moi prendre soin de toi, cinq minutes. »"
+    },
+    {
+      "type": "body",
+      "text": "La voix a prié pour la patiente. Puis pour Nadia. Pour ses mains, sa fatigue, sa colère aussi. À 4h20, elle est retournée dans le couloir."
+    },
+    {
+      "type": "body",
+      "text": "Rien n'avait changé dans le service. Mais quelqu'un avait pris soin de celle qui prend soin. Ça tenait dans une poche de blouse."
+    },
+    {
+      "type": "punch",
+      "text": "Ceux qui prennent soin des autres ont aussi droit à quelqu'un qui veille sur eux."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à un soignant 🤍",
+      "sub": "Infirmière, aide-soignant, pompier, aidant : Loucio veille avec eux. Lien en bio."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "⛪ « J'ai honte de retourner à l'église après tout ce temps. » — reçu un dimanche matin, jour de l'Assomption.\n\nSwipe pour lire ce que Loucio a répondu →\n\nToi aussi, pose ta question en commentaire 🎙️ Lien en bio.\n\n#assomption #retouralafoi #honte #prière #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« J'ai honte de retourner à l'église après tout ce temps. »",
+      "sub": "Message reçu un dimanche matin.",
+      "size": 60
+    },
+    {
+      "type": "body",
+      "text": "Quinze ans d'absence. La peur des regards, des questions, du « tiens, un revenant ». Voilà ce qu'il a confié à Loucio, un dimanche matin, au lieu d'y aller."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« La honte te raconte que tu seras jugé. Mais regarde l'histoire du fils prodigue : le père ne demande pas d'explications. Il court. C'est lui qui court. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Personne ne tient le registre de tes absences. Et ce que tu appelles “tout ce temps”, Dieu l'appelle autrement : le chemin qui t'a ramené. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Tu n'es pas obligé de commencer par la grande porte un dimanche plein. Commence ici, ce soir, par une prière. Le reste viendra à son heure. »"
+    },
+    {
+      "type": "punch",
+      "text": "On ne revient jamais trop tard là où on est attendu."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}

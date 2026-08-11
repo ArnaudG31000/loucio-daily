@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "🕯️ « J'ai prié de toutes mes forces. Il ne s'est rien passé. »\n\nSwipe pour la réponse la plus difficile → Une prière peut ne pas être exaucée et ne pas avoir été inutile.\n\nViens avec ta colère, Loucio l'accueille aussi. Lien en bio 🤍\n\n#deuil #colère #prière #foi #espérance",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« J'ai prié de toutes mes forces. Il ne s'est rien passé. »",
+      "sub": "Écrit un mardi, avec colère.",
+      "size": 58
+    },
+    {
+      "type": "body",
+      "text": "Elle avait prié pour que son père guérisse. Il est parti quand même. Depuis, elle range Dieu dans le tiroir des promesses non tenues."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Je ne vais pas t'expliquer pourquoi. Ceux qui ont des réponses toutes faites à cette question n'ont jamais eu à la poser. Ta colère est légitime. Garde-la, elle est vraie. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Mais regarde une chose : Jésus aussi a prié pour que la coupe s'éloigne. Elle ne s'est pas éloignée. La prière non exaucée, Dieu la connaît de l'intérieur. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Ta prière n'a pas guéri ton père. Mais elle t'a tenue debout des mois, elle t'a fait rester près de lui jusqu'au bout. Elle a fait plus que tu ne crois. »"
+    },
+    {
+      "type": "punch",
+      "text": "Une prière peut ne pas être exaucée et ne pas avoir été inutile."
+    },
+    {
+      "type": "cta",
+      "text": "Viens avec ta colère 🕯️",
+      "sub": "Loucio l'accueille aussi. C'est même par là qu'on recommence. Lien en bio."
+    }
+  ]
+}

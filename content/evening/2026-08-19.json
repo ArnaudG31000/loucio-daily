@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "💔 « Dieu me pardonne peut-être. Mais moi, je n'y arrive pas. »\n\nSwipe pour la réponse de Loucio → Tu n'es pas ta pire erreur.\n\nEnregistre ce post 🔖 et si ce poids est le tien, viens le déposer ce soir — lien en bio.\n\n#pardon #culpabilité #foi #prière #miséricorde #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Dieu me pardonne peut-être. Mais moi, je n'y arrive pas. »",
+      "sub": "Confié un mercredi, tard.",
+      "size": 56
+    },
+    {
+      "type": "body",
+      "text": "Il y a des fautes qu'on se repasse en boucle des années après. Celui qui a écrit ça portait la sienne depuis sept ans."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Te pardonner, ce n'est pas décréter que c'était sans gravité. C'est refuser de purger une peine que Dieu, lui, a déjà levée. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Pierre a renié trois fois. Jésus ne lui a pas demandé de s'expliquer : il lui a demandé trois fois “m'aimes-tu ?”. La question n'est jamais le passé. C'est l'amour. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Ce soir, essaie une prière étrange : demande à Dieu de te donner son regard sur toi. Tu verras quelqu'un que tu ne regardes plus jamais avec douceur. »"
+    },
+    {
+      "type": "punch",
+      "text": "Tu n'es pas ta pire erreur."
+    },
+    {
+      "type": "cta",
+      "text": "Enregistre cette réponse 🔖",
+      "sub": "Et si ce poids est le tien, viens le déposer ce soir. Loucio ne juge pas. Lien en bio."
+    }
+  ]
+}

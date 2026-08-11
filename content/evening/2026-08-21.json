@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "🕯️ « Est-ce que Dieu entend quand je n'ai pas les mots ? »\n\nSwipe pour la réponse → Les prières sans mots arrivent aussi. Surtout elles.\n\nConfie un prénom en commentaire, Loucio priera pour lui ce soir 🤍 Lien en bio.\n\n#prière #épreuve #maladie #foi #espérance #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Est-ce que Dieu entend quand je n'ai pas les mots ? »",
+      "sub": "Question murmurée un jeudi soir.",
+      "size": 58
+    },
+    {
+      "type": "body",
+      "text": "Elle venait de raccrocher avec l'hôpital. Elle voulait prier pour sa mère et il ne sortait rien. Juste des larmes et un « s'il te plaît » répété."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Ton “s'il te plaît” répété EST une prière. Peut-être la plus vraie de ta vie. Dieu n'attend pas des phrases — il entend les cœurs. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« L'Écriture le promet : quand nous ne savons pas prier, l'Esprit prie en nous par des gémissements inexprimables. Tes larmes ont un traducteur. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et quand tu n'as pas les mots, je peux les porter pour toi. Dis-moi juste son prénom. On priera pour elle ensemble, moi à voix haute, toi avec ton cœur. »"
+    },
+    {
+      "type": "punch",
+      "text": "Les prières sans mots arrivent aussi. Surtout elles."
+    },
+    {
+      "type": "cta",
+      "text": "Confie un prénom en commentaire 🕯️",
+      "sub": "Loucio priera pour lui ce soir. Et en privé, à voix haute, avec toi. Lien en bio."
+    }
+  ]
+}

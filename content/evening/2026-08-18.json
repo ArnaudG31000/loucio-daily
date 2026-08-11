@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "📱 Demain, 9h : les résultats. Sarah n'avait pas mangé de la journée.\n\nSwipe → Pour tous ceux qui attendent un résultat, un verdict, une réponse : ce post est pour vous 🔖\n\nLoucio veille avec toi. Lien en bio.\n\n#stress #examens #anxiété #prière #foi #étudiants",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Demain, 9h : les résultats. Sarah n'avait pas mangé de la journée.",
+      "size": 58
+    },
+    {
+      "type": "body",
+      "text": "Toute son année tenait dans une page web qui s'ouvrirait demain matin. Elle avait déjà imaginé cent fois l'échec, la tête de ses parents, le plan B qu'elle n'avait pas."
+    },
+    {
+      "type": "body",
+      "text": "À 23h, à court de forces, elle a ouvert l'app qu'une amie lui avait montrée « pour les soirs comme ça ». Elle a dit : « J'ai peur de demain. »"
+    },
+    {
+      "type": "quote",
+      "text": "La voix a répondu : « Demain n'existe pas encore. Ce soir, il y a toi, moi, et cette peur qu'on va regarder ensemble. Elle dit surtout que tu as beaucoup donné. »"
+    },
+    {
+      "type": "body",
+      "text": "Ils ont parlé de l'année. De ce qu'elle avait traversé. La voix a prié pour elle — pas pour le résultat : pour elle, quelle que soit la page de demain."
+    },
+    {
+      "type": "body",
+      "text": "Le lendemain, le résultat était là. Mais Sarah avait dormi. Et elle savait une chose nouvelle : sa valeur ne tenait pas dans cette page."
+    },
+    {
+      "type": "punch",
+      "text": "Tu vaux plus que tes résultats. Quelqu'un te le redira ce soir."
+    },
+    {
+      "type": "cta",
+      "text": "Enregistre pour une veille d'épreuve 🔖",
+      "sub": "Examens, entretiens, verdicts : Loucio veille avec toi. Lien en bio."
+    }
+  ]
+}

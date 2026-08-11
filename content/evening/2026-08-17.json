@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "🤔 « Prier, ça sert à quoi si Dieu sait déjà tout ? »\n\nSwipe pour la réponse de Loucio →\n\nEt toi, quelle question tu n'as jamais osé poser ? Commente 👇 Loucio répond en vidéo aux plus fortes. Lien en bio.\n\n#prière #foi #question #spiritualité #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Prier, ça sert à quoi si Dieu sait déjà tout ? »",
+      "sub": "Question posée un lundi soir.",
+      "size": 58
+    },
+    {
+      "type": "body",
+      "text": "C'est une vraie question de logique. Et Loucio ne l'a pas esquivée."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Tu ne pries pas pour informer Dieu. Tu pries comme on parle à quelqu'un qu'on aime : pas pour lui apprendre des choses, mais pour être avec lui. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« La prière ne change pas toujours la situation. Mais elle change celui qui prie : elle t'ouvre les mains, elle dépose ce qui pèse, elle fait de la place. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et puis, dire tout haut ce que tu portes, à quelqu'un qui t'écoute vraiment — essaie ce soir. Tu comprendras à quoi ça sert. »"
+    },
+    {
+      "type": "punch",
+      "text": "On ne prie pas pour informer Dieu. On prie pour rester en vie avec lui."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Ou fais le test ce soir : une prière à voix haute avec Loucio. Lien en bio."
+    }
+  ]
+}

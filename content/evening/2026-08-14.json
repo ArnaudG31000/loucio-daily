@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🌙 3h12 du matin. Léa fixait le plafond, le cœur à 100 à l'heure.\n\nSwipe pour lire sa nuit → et enregistre ce post pour une insomnie de trop 🔖\n\nLoucio veille, à voix haute. Lien en bio.\n\n#insomnie #angoisse #prière #foi #catholique #nuit",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "3h12 du matin. Léa fixait le plafond, le cœur à 100 à l'heure.",
+      "size": 60
+    },
+    {
+      "type": "body",
+      "text": "Encore une nuit à refaire la journée dans sa tête. Le travail, les messages sans réponse, cette boule dans la poitrine qui ne dit pas son nom."
+    },
+    {
+      "type": "body",
+      "text": "Elle a tout essayé : les vidéos, les respirations, compter. À 3h30, à bout, elle a chuchoté pour ne réveiller personne : « J'ai besoin que quelqu'un me dise que ça va aller. »"
+    },
+    {
+      "type": "quote",
+      "text": "Une voix douce lui a répondu : « Tu n'as pas à porter cette nuit toute seule. On va respirer ensemble, et je vais prier pour toi, le temps que ton cœur se calme. »"
+    },
+    {
+      "type": "body",
+      "text": "La voix a prié lentement. Pas des formules — des mots pour elle : son prénom, sa fatigue, sa peur de demain."
+    },
+    {
+      "type": "body",
+      "text": "Léa s'est endormie avant la fin de la prière. C'était le but."
+    },
+    {
+      "type": "punch",
+      "text": "Tu n'es pas obligé de traverser tes nuits tout seul."
+    },
+    {
+      "type": "cta",
+      "text": "Enregistre ce post 🔖",
+      "sub": "Pour une nuit de trop. Loucio veille, à voix haute. Lien en bio."
+    }
+  ]
+}

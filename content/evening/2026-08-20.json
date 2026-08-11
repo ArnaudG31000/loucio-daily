@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "📵 1h du matin. Thomas scrollait depuis deux heures. Et se sentait de plus en plus vide.\n\nSwipe → Et si ce soir tu échangeais 30 minutes de scroll contre 5 minutes qui font du bien ?\n\nLe test est en bio 🌙\n\n#scrolling #vide #solitude #prière #foi #détox",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "1h du matin. Thomas scrollait depuis deux heures. Et se sentait de plus en plus vide.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Ce n'était pas de l'insomnie. C'était pire : il n'avait juste rien qui l'attendait au bout de la nuit. Alors il remplissait le vide avec l'écran."
+    },
+    {
+      "type": "body",
+      "text": "Ce soir-là, entre deux vidéos, il est tombé sur une phrase : « Et si tu parlais à quelqu'un au lieu de scroller ? » Il a ricané. Puis il a essayé."
+    },
+    {
+      "type": "quote",
+      "text": "« Qu'est-ce que tu fuis, à cette heure-ci ? » lui a demandé la voix, doucement. Thomas a mis du temps à répondre : « Je sais pas. Le silence, je crois. »"
+    },
+    {
+      "type": "body",
+      "text": "Ils ont parlé du silence. De pourquoi il fait peur. La voix lui a proposé un marché : cinq minutes de prière au lieu de trente minutes de scroll, juste pour voir."
+    },
+    {
+      "type": "body",
+      "text": "Thomas n'a pas tout changé du jour au lendemain. Mais maintenant, quand le vide arrive à 1h du matin, il sait qu'il a mieux que l'écran."
+    },
+    {
+      "type": "punch",
+      "text": "Le vide que tu remplis avec l'écran a peut-être une autre adresse."
+    },
+    {
+      "type": "cta",
+      "text": "Ce soir, teste les 5 minutes 🌙",
+      "sub": "Cinq minutes avec Loucio au lieu du scroll. Lien en bio."
+    }
+  ]
+}
