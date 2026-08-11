@@ -1,0 +1,47 @@
+name: publication-loucio
+
+on:
+  schedule:
+    - cron: '30 4 * * *'
+    - cron: '30 5 * * *'
+    - cron: '0 19 * * *'
+    - cron: '0 20 * * *'
+  push:
+    paths:
+      - 'trigger/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dependances
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-dejavu fonts-liberation
+          pip install --quiet pillow requests
+
+      - name: Creneau
+        run: |
+          SLOT=auto
+          if [ "${{ github.event_name }}" = "push" ] && [ -f trigger/slot.txt ]; then
+            SLOT=$(cat trigger/slot.txt)
+          fi
+          echo "SLOT=$SLOT" >> "$GITHUB_ENV"
+
+      - name: Publier
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python publish.py --slot "$SLOT"
