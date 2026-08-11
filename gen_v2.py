@@ -49,9 +49,10 @@ def render(slides, outdir, theme="nuit"):
                 y += 30
                 y = gc.draw_block(d, s["sub"], gc.font("body", 42), y, 780,
                                   color=gc.THEME["muted"], ls=1.5)
+            y = gc.signature(d, y + 50, img)
             tt = gc.spaced("loucio.com", 2)
             fnt = gc.font("eyebrow", 34)
-            d.text(((W - d.textlength(tt, font=fnt)) / 2, y + 60), tt,
+            d.text(((W - d.textlength(tt, font=fnt)) / 2, y + 25), tt,
                    font=fnt, fill=gc.THEME["accent"])
         gc.footer(d, i, total)
         p = os.path.join(outdir, f"slide_{i+1}.png")

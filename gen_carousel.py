@@ -58,9 +58,16 @@ def gradient_bg():
         img.paste(Image.new("RGB", (W, 1), c), (0, y))
     return img
 
+def clean(text):
+    # les polices n'ont pas de glyphes emoji (carré vide) — on les retire des slides
+    out = "".join(ch for ch in text
+                  if (ord(ch) < 0x2600 or (0x27C0 <= ord(ch) < 0x1F000))
+                  and ord(ch) != 0xFE0F)
+    return " ".join(out.split())
+
 def wrap(draw, text, fnt, max_w):
     lines, line = [], ""
-    for word in text.split(" "):
+    for word in clean(text).split(" "):
         test = (line + " " + word).strip()
         if draw.textlength(test, font=fnt) <= max_w:
             line = test
@@ -89,16 +96,31 @@ def frame(draw):
     draw.rectangle([m, m, W - m, H - m], outline=_c("accent"), width=2)
 
 def footer(draw, idx, total):
+    # pas de points de pagination : Instagram affiche déjà les siens
     wordmark = spaced("loucio", 2)
     fnt = font("small")
     w = draw.textlength(wordmark, font=fnt)
-    draw.text(((W - w) / 2, H - 108), wordmark, font=fnt, fill=_c("accent"))
-    r, gap = 5, 22
-    total_w = total * gap
-    x0 = (W - total_w) / 2 + gap / 2
-    for i in range(total):
-        c = _c("accent") if i == idx else _c("muted")
-        draw.ellipse([x0 + i * gap - r, H - 62 - r, x0 + i * gap + r, H - 62 + r], fill=c)
+    draw.text(((W - w) / 2, H - 96), wordmark, font=fnt, fill=_c("accent"))
+
+APP_SCREENSHOT = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                              "assets", "app_screenshot.png")
+
+def signature(draw, y, img=None):
+    """Signature de fin de carrousel. Déposer assets/app_screenshot.png pour
+    insérer le visuel de l'app au-dessus de la signature (slide produit)."""
+    if img is not None and os.path.exists(APP_SCREENSHOT):
+        shot = Image.open(APP_SCREENSHOT).convert("RGBA")
+        max_w, max_h = 420, H - 240 - int(y)
+        if max_h > 200:
+            ratio = min(max_w / shot.width, max_h / shot.height)
+            shot = shot.resize((int(shot.width * ratio), int(shot.height * ratio)))
+            img.paste(shot, (int((W - shot.width) / 2), int(y)), shot)
+            y += shot.height + 40
+    t = "Loucio t'écoute, ce soir."
+    fnt = font("quote_s", 46)
+    w = draw.textlength(t, font=fnt)
+    draw.text(((W - w) / 2, y), t, font=fnt, fill=_c("accent"))
+    return y + int(fnt.size * 1.5)
 
 def eyebrow(draw, text, y=150):
     for gap, size in [(2, 30), (1, 30), (1, 26), (0, 26), (0, 22)]:
@@ -117,8 +139,12 @@ def center_start(draw, blocks, ls=1.45):
         total += len(lines) * int(fnt.size * ls) + gap
     return max(240, (H - total) / 2)
 
+CURRENT_IMG = None
+
 def make_slide(idx, total, painter, outdir):
+    global CURRENT_IMG
     img = gradient_bg()
+    CURRENT_IMG = img
     draw = ImageDraw.Draw(img)
     frame(draw)
     painter(draw)
@@ -135,10 +161,12 @@ def build(content, outdir, theme="nuit"):
     total = 6
 
     def s1(d):
+        # slide 1 : question universelle qui accroche — jamais la citation
         eyebrow(d, f"évangile du jour · {c['date_label']}")
-        fq = font("quote", 68)
-        y = center_start(d, [(c["hook"], fq, 840, 40)])
-        y = draw_block(d, c["hook"], fq, y, 840)
+        question = c.get("question") or c["hook"]
+        fq = font("cta", 62)
+        y = center_start(d, [(question, fq, 840, 40)])
+        y = draw_block(d, question, fq, y, 840)
         d.text(((W - d.textlength(c["saint"], font=font("small", 30))) / 2, y + 50),
                c["saint"], font=font("small", 30), fill=_c("muted"))
 
@@ -174,10 +202,11 @@ def build(content, outdir, theme="nuit"):
         y = draw_block(d, c["cta_title"], fcta, y, 840)
         y += 30
         y = draw_block(d, c["cta_sub"], font("body", 42), y, 780, color=_c("muted"), ls=1.5)
+        y = signature(d, y + 55, CURRENT_IMG)
         t = spaced("loucio.com", 2)
         fnt = font("eyebrow", 34)
         w = d.textlength(t, font=fnt)
-        d.text(((W - w) / 2, y + 60), t, font=fnt, fill=_c("accent"))
+        d.text(((W - w) / 2, y + 25), t, font=fnt, fill=_c("accent"))
 
     for i, painter in enumerate([s1, s2, s3, s4, s5, s6]):
         paths.append(make_slide(i, total, painter, outdir))
