@@ -7,7 +7,28 @@ import requests
 
 API = "https://graph.instagram.com/v23.0"
 PARIS = ZoneInfo("Europe/Paris")
-TOKEN = os.environ["IG_TOKEN"]
+
+
+def _load_token():
+    """Token courant : .automation/ig_token.enc (rafraîchi chaque semaine,
+    chiffré avec le secret IG_TOKEN d'origine), sinon le secret d'amorce."""
+    seed = os.environ["IG_TOKEN"]
+    enc = ".automation/ig_token.enc"
+    if os.path.exists(enc):
+        try:
+            out = subprocess.run(
+                ["openssl", "enc", "-d", "-aes-256-cbc", "-pbkdf2",
+                 "-in", enc, "-pass", "env:IG_TOKEN"],
+                capture_output=True, check=True)
+            tok = out.stdout.decode().strip()
+            if tok:
+                return tok
+        except subprocess.CalledProcessError:
+            pass
+    return seed
+
+
+TOKEN = _load_token()
 REPO = os.environ.get("GITHUB_REPOSITORY", "")
 RAW_BASE = f"https://raw.githubusercontent.com/{REPO}/main"
 
