@@ -1,0 +1,51 @@
+name: fetch-aelf
+
+# Récupère chaque jour les lectures AELF de J+1 et J+2 et les committe
+# dans liturgy/DATE.json. La session de génération de 18h (heure de Paris)
+# lit ces fichiers depuis le dépôt : son environnement n'a pas d'accès
+# réseau direct à api.aelf.org.
+
+on:
+  schedule:
+    - cron: '30 15 * * *'   # 17h30 Paris (été) — avant la génération de 18h
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Recuperer les lectures AELF (J+1 et J+2)
+        run: |
+          set -euo pipefail
+          mkdir -p liturgy
+          for OFFSET in 1 2; do
+            DATE=$(TZ=Europe/Paris date -d "+${OFFSET} day" +%F)
+            curl -sS --retry 3 --retry-delay 10 "https://api.aelf.org/v1/messes/${DATE}/france" -o "liturgy/${DATE}.json"
+            python3 -c "import json; d=json.load(open('liturgy/${DATE}.json')); assert d.get('messes'), 'reponse AELF invalide'"
+            echo "liturgy/${DATE}.json OK"
+          done
+          # ménage : on ne garde que les 15 derniers jours
+          python3 - <<'PY'
+          import glob, os, datetime
+          seuil = (datetime.date.today() - datetime.timedelta(days=15)).isoformat()
+          for f in glob.glob('liturgy/*.json'):
+              if os.path.basename(f)[:10] < seuil:
+                  os.remove(f)
+          PY
+          git config user.name "loucio-bot"
+          git config user.email "bot@loucio.com"
+          git add liturgy
+          if git diff --cached --quiet; then echo "rien de nouveau"; exit 0; fi
+          git commit -m "lectures AELF J+1/J+2 ($(TZ=Europe/Paris date +%F))"
+          for i in 1 2 3 4; do
+            git pull --rebase && git push && break || sleep $((2**i))
+          done
