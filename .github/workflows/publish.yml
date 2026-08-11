@@ -9,6 +9,13 @@ on:
   push:
     paths:
       - 'trigger/**'
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'Créneau à publier (matin, soir, ou auto selon l''heure)'
+        type: choice
+        options: [auto, matin, soir]
+        default: auto
 
 permissions:
   contents: write
@@ -38,6 +45,8 @@ jobs:
           SLOT=auto
           if [ "${{ github.event_name }}" = "push" ] && [ -f trigger/slot.txt ]; then
             SLOT=$(cat trigger/slot.txt)
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            SLOT="${{ inputs.slot }}"
           fi
           echo "SLOT=$SLOT" >> "$GITHUB_ENV"
 
