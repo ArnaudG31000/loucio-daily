@@ -1,0 +1,41 @@
+name: refresh-token-instagram
+
+# Rafraîchit le token longue durée Instagram (validité 60 jours) chaque
+# semaine, et stocke le nouveau token dans la variable de dépôt
+# IG_TOKEN_CURRENT. Le secret IG_TOKEN ne sert plus que d'amorce.
+
+on:
+  schedule:
+    - cron: '15 3 * * 1'   # tous les lundis, 03h15 UTC
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+concurrency:
+  group: refresh-token
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rafraichir le token Instagram
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CURRENT: ${{ vars.IG_TOKEN_CURRENT || secrets.IG_TOKEN }}
+        run: |
+          set -euo pipefail
+          RES=$(curl -sS "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${CURRENT}")
+          NEW=$(printf '%s' "$RES" | python3 -c "import json,sys; print(json.load(sys.stdin).get('access_token',''))")
+          if [ -z "$NEW" ]; then
+            echo "Echec du refresh Instagram :"
+            printf '%s' "$RES" | python3 -c "import json,sys; d=json.load(sys.stdin); e=d.get('error',d); e.pop('access_token',None); print(json.dumps(e, indent=2))" || true
+            exit 1
+          fi
+          echo "::add-mask::$NEW"
+          DAYS=$(printf '%s' "$RES" | python3 -c "import json,sys; print(int(json.load(sys.stdin).get('expires_in',0))//86400)")
+          CHECK=$(curl -sS "https://graph.instagram.com/v23.0/me?fields=username&access_token=${NEW}")
+          printf '%s' "$CHECK" | grep -q '"username"' || { echo "Nouveau token invalide : $CHECK"; exit 1; }
+          gh variable set IG_TOKEN_CURRENT --repo "$GITHUB_REPOSITORY" --body "$NEW"
+          echo "Token rafraichi (valide ${DAYS} jours), variable IG_TOKEN_CURRENT mise a jour."

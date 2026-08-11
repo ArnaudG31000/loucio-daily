@@ -43,5 +43,5 @@ jobs:
 
       - name: Publier
         env:
-          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_TOKEN: ${{ vars.IG_TOKEN_CURRENT || secrets.IG_TOKEN }}
         run: python publish.py --slot "$SLOT"
