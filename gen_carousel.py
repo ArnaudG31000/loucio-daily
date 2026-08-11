@@ -89,16 +89,44 @@ def frame(draw):
     draw.rectangle([m, m, W - m, H - m], outline=_c("accent"), width=2)
 
 def footer(draw, idx, total):
+    # pas de points de pagination : Instagram les affiche déjà
     wordmark = spaced("loucio", 2)
     fnt = font("small")
     w = draw.textlength(wordmark, font=fnt)
-    draw.text(((W - w) / 2, H - 108), wordmark, font=fnt, fill=_c("accent"))
-    r, gap = 5, 22
-    total_w = total * gap
-    x0 = (W - total_w) / 2 + gap / 2
-    for i in range(total):
-        c = _c("accent") if i == idx else _c("muted")
-        draw.ellipse([x0 + i * gap - r, H - 62 - r, x0 + i * gap + r, H - 62 + r], fill=c)
+    draw.text(((W - w) / 2, H - 92), wordmark, font=fnt, fill=_c("accent"))
+
+
+def signature(draw, y):
+    """Signature de fin de carrousel, sur la dernière slide."""
+    txt = "Loucio t'écoute, ce soir."
+    fnt = font("quote_s", 44)
+    w = draw.textlength(txt, font=fnt)
+    draw.text(((W - w) / 2, y), txt, font=fnt, fill=_c("accent"))
+    return y + int(fnt.size * 1.4)
+
+
+# Emplacement réservé pour la slide finale produit : dès que la capture
+# d'écran de l'app est déposée en assets/app_screenshot.png, une slide
+# supplémentaire la présentant est ajoutée en fin de carrousel.
+APP_SCREENSHOT = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                              "assets", "app_screenshot.png")
+
+
+def product_slide(idx, total, outdir):
+    img = gradient_bg()
+    d = ImageDraw.Draw(img)
+    frame(d)
+    shot = Image.open(APP_SCREENSHOT).convert("RGB")
+    max_w, max_h = 620, 850
+    r = min(max_w / shot.width, max_h / shot.height)
+    shot = shot.resize((int(shot.width * r), int(shot.height * r)))
+    img.paste(shot, (int((W - shot.width) / 2), 160))
+    y = 160 + shot.height + 56
+    signature(d, y)
+    footer(d, idx, total)
+    path = os.path.join(outdir, f"slide_{idx+1}.png")
+    img.save(path)
+    return path
 
 def eyebrow(draw, text, y=150):
     for gap, size in [(2, 30), (1, 30), (1, 26), (0, 26), (0, 22)]:
@@ -132,41 +160,49 @@ def build(content, outdir, theme="nuit"):
     os.makedirs(outdir, exist_ok=True)
     c = content
     paths = []
-    total = 6
 
     def s1(d):
+        # slide 1 : question universelle courte — jamais la citation
         eyebrow(d, f"évangile du jour · {c['date_label']}")
-        fq = font("quote", 68)
-        y = center_start(d, [(c["hook"], fq, 840, 40)])
-        y = draw_block(d, c["hook"], fq, y, 840)
+        q = c.get("question") or c["hook"]
+        fq = font("title", 64)
+        y = center_start(d, [(q, fq, 820, 40)], ls=1.35)
+        y = draw_block(d, q, fq, y, 820, ls=1.35)
         d.text(((W - d.textlength(c["saint"], font=font("small", 30))) / 2, y + 50),
                c["saint"], font=font("small", 30), fill=_c("muted"))
 
     def s2(d):
+        # slide 2 : la citation d'évangile
+        eyebrow(d, f"la parole · {c['ref']}")
+        fq = font("quote", 62)
+        y = center_start(d, [(c["hook"], fq, 840, 0)])
+        draw_block(d, c["hook"], fq, y, 840)
+
+    def s3(d):
         eyebrow(d, f"l'évangile · {c['ref']}")
         fb = font("body_i", 42)
         y = center_start(d, [(c["gospel"], fb, 820, 0)])
         draw_block(d, c["gospel"], fb, y, 820, align="center", ls=1.5)
 
-    def s3(d):
+    def s4(d):
         eyebrow(d, "la méditation de loucio")
         fb = font("body", 46)
         y = center_start(d, [(c["meditation_1"], fb, 820, 0)])
         draw_block(d, c["meditation_1"], fb, y, 820, ls=1.55)
 
-    def s4(d):
+    def s5(d):
         eyebrow(d, "la méditation de loucio")
         fb = font("body", 46)
         y = center_start(d, [(c["meditation_2"], fb, 820, 0)])
         draw_block(d, c["meditation_2"], fb, y, 820, ls=1.55)
 
-    def s5(d):
+    def s6(d):
         eyebrow(d, "la prière")
         fb = font("quote_s", 50)
         y = center_start(d, [(c["prayer"], fb, 800, 0)])
         draw_block(d, c["prayer"], fb, y, 800, ls=1.6)
 
-    def s6(d):
+    def s7(d):
         fcta = font("cta")
         blocks = [(c["cta_title"], fcta, 840, 40),
                   (c["cta_sub"], font("body", 42), 780, 60)]
@@ -174,13 +210,18 @@ def build(content, outdir, theme="nuit"):
         y = draw_block(d, c["cta_title"], fcta, y, 840)
         y += 30
         y = draw_block(d, c["cta_sub"], font("body", 42), y, 780, color=_c("muted"), ls=1.5)
+        y = signature(d, y + 44)
         t = spaced("loucio.com", 2)
         fnt = font("eyebrow", 34)
         w = d.textlength(t, font=fnt)
-        d.text(((W - w) / 2, y + 60), t, font=fnt, fill=_c("accent"))
+        d.text(((W - w) / 2, y + 30), t, font=fnt, fill=_c("accent"))
 
-    for i, painter in enumerate([s1, s2, s3, s4, s5, s6]):
+    painters = [s1, s2, s3, s4, s5, s6, s7]
+    total = len(painters) + (1 if os.path.exists(APP_SCREENSHOT) else 0)
+    for i, painter in enumerate(painters):
         paths.append(make_slide(i, total, painter, outdir))
+    if os.path.exists(APP_SCREENSHOT):
+        paths.append(product_slide(len(painters), total, outdir))
     return paths
 
 if __name__ == "__main__":

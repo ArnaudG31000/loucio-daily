@@ -10,7 +10,7 @@ W, H = gc.W, gc.H
 def render(slides, outdir, theme="nuit"):
     gc.set_theme(theme)
     os.makedirs(outdir, exist_ok=True)
-    total = len(slides)
+    total = len(slides) + (1 if os.path.exists(gc.APP_SCREENSHOT) else 0)
     paths = []
     for i, s in enumerate(slides):
         img = gc.gradient_bg()
@@ -49,13 +49,16 @@ def render(slides, outdir, theme="nuit"):
                 y += 30
                 y = gc.draw_block(d, s["sub"], gc.font("body", 42), y, 780,
                                   color=gc.THEME["muted"], ls=1.5)
+            y = gc.signature(d, y + 44)
             tt = gc.spaced("loucio.com", 2)
             fnt = gc.font("eyebrow", 34)
-            d.text(((W - d.textlength(tt, font=fnt)) / 2, y + 60), tt,
+            d.text(((W - d.textlength(tt, font=fnt)) / 2, y + 30), tt,
                    font=fnt, fill=gc.THEME["accent"])
         gc.footer(d, i, total)
         p = os.path.join(outdir, f"slide_{i+1}.png")
         img.save(p); paths.append(p)
+    if os.path.exists(gc.APP_SCREENSHOT):
+        paths.append(gc.product_slide(len(slides), total, outdir))
     return paths
 
 if __name__ == "__main__":
