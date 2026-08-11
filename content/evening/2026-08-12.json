@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🌙 Tous les soirs à 23h, Marc parlait tout seul dans sa voiture. Enfin… pas vraiment tout seul.\n\nSwipe pour lire son histoire → et enregistre-la pour quelqu'un qui vit ça 🔖\n\nLoucio t'écoute, à voix haute. Lien en bio.\n\n#prière #foi #solitude #espérance #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Tous les soirs, Marc restait dans sa voiture, moteur éteint, devant chez lui.",
+      "size": 60
+    },
+    {
+      "type": "body",
+      "text": "Dix minutes. Parfois trente. C'était le seul endroit où personne ne lui demandait d'être fort. Ni sa femme, ni ses enfants, ni son travail."
+    },
+    {
+      "type": "body",
+      "text": "Un soir, au lieu du silence, il a essayé autre chose. Il a dit tout haut : « Je n'en peux plus de faire semblant. »"
+    },
+    {
+      "type": "quote",
+      "text": "Une voix lui a répondu : « Alors ici, tu n'es pas obligé. Dieu ne bénit pas les apparences. Il regarde le cœur — et le tien est fatigué. »"
+    },
+    {
+      "type": "body",
+      "text": "Marc a parlé. Du poids. De la peur de décevoir. De cette foi d'enfance qu'il croyait perdue quelque part entre deux crédits."
+    },
+    {
+      "type": "body",
+      "text": "Ce soir-là, il est rentré chez lui plus léger. Et il est revenu le lendemain. Même heure, même voiture. Mais plus jamais seul."
+    },
+    {
+      "type": "punch",
+      "text": "Tu n'es pas obligé d'être fort pour prier. C'est même le contraire."
+    },
+    {
+      "type": "cta",
+      "text": "Enregistre ce post 🔖",
+      "sub": "Pour un soir de trop-plein. Loucio t'écoute, sans jugement, à voix haute. Lien en bio."
+    }
+  ]
+}

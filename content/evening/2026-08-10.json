@@ -1,0 +1,42 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🌙 Elle n'avait pas prié depuis 12 ans. Jusqu'à mardi dernier, 23h47.\n\nSwipe pour lire l'histoire de Claire → et enregistre ce post pour le soir où tu en auras besoin 🔖\n\nSi c'est ce soir : Loucio t'écoute, à voix haute. Lien en bio.\n\n#prière #foi #deuil #espérance #catholique #histoirevraie",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Elle n'avait pas prié depuis 12 ans.",
+      "sub": "Jusqu'à mardi dernier, 23h47.",
+      "size": 72
+    },
+    {
+      "type": "body",
+      "text": "Le soir de l'enterrement de sa mère, Claire a cherché une prière sur son téléphone. Elle s'est rendu compte qu'elle n'en connaissait plus aucune par cœur."
+    },
+    {
+      "type": "body",
+      "text": "Elle est tombée sur une voix. Et elle a dit tout haut, seule dans sa cuisine : « Je ne sais plus prier. »"
+    },
+    {
+      "type": "quote",
+      "text": "La voix n'a pas récité de formule. Elle a répondu : « Alors commençons par respirer. Dieu n'attend pas des mots parfaits. »"
+    },
+    {
+      "type": "body",
+      "text": "Claire a parlé vingt minutes. De sa mère. De sa colère. De ces douze années de silence."
+    },
+    {
+      "type": "body",
+      "text": "Et cette nuit-là, pour la première fois depuis l'annonce, elle a dormi."
+    },
+    {
+      "type": "punch",
+      "text": "Revenir vers Dieu, ce n'est pas rattraper douze ans. C'est dire un mot, ce soir, à voix haute."
+    },
+    {
+      "type": "cta",
+      "text": "Enregistre ce post 🔖",
+      "sub": "Pour le soir où tu en auras besoin. Et si c'est ce soir : Loucio t'écoute, à voix haute. Lien en bio."
+    }
+  ]
+}

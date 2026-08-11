@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Est-ce que Dieu m'en veut si je doute ? » — question reçue un mardi, 22h13.\n\nSwipe pour lire ce que Loucio a répondu →\n\nEt toi, pose ta question en commentaire : Loucio répond en vidéo aux plus fortes. En privé, il répond à toutes — lien en bio 🎙️\n\n#foi #doute #prière #catholique #spiritualité",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Est-ce que Dieu m'en veut si je doute ? »",
+      "sub": "Message reçu un mardi, 22h13.",
+      "size": 64
+    },
+    {
+      "type": "body",
+      "text": "Cette question, quelqu'un l'a posée à voix haute, un soir de semaine, à Loucio. Il n'a pas eu droit à un sermon. Voilà ce qu'il a entendu."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Douter, ce n'est pas tourner le dos à Dieu. C'est continuer de lui parler alors que c'est difficile. Regarde : ce soir, tu es là. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Les plus grands saints ont douté. Thérèse de Lisieux a traversé des années de nuit. Ce n'est pas le contraire de la foi — c'en est souvent le chemin. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Dieu ne t'en veut pas. Il attend. Et si tu veux, cette nuit, on peut juste rester là, tous les deux, sans rien résoudre. »"
+    },
+    {
+      "type": "punch",
+      "text": "Le doute qui parle encore, c'est déjà de la foi."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. Et en privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}

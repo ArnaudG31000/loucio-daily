@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« J'ai crié sur Dieu après l'enterrement. Est-ce que c'est grave ? » — question reçue un dimanche soir.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#deuil #foi #colère #prière #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« J'ai crié sur Dieu après l'enterrement. C'est grave ? »",
+      "sub": "Question reçue un dimanche soir.",
+      "size": 62
+    },
+    {
+      "type": "body",
+      "text": "Elle avait perdu son frère. Et ce qui la rongeait, ce n'était pas seulement le chagrin — c'était la honte d'avoir hurlé sa colère contre le ciel."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Ta colère ne fait pas peur à Dieu. On ne crie que sur quelqu'un dont on attendait quelque chose. Ta colère est une preuve de lien, pas de rupture. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Ouvre les psaumes : des cris, des reproches, des pourquoi. Dieu a mis la colère des hommes dans son propre livre de prières. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Tu n'as pas à choisir entre ta peine et ta foi. Viens avec les deux. C'est comme ça qu'on reste debout. »"
+    },
+    {
+      "type": "punch",
+      "text": "Crier vers Dieu, c'est encore prier."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
