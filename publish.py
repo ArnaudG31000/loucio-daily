@@ -74,6 +74,26 @@ def git_push(paths, message):
             time.sleep(5)
     raise RuntimeError("git push failed")
 
+def publish_reel(video_path, caption):
+    url = f"{RAW_BASE}/{video_path}"
+    log(f"attente de la propagation de la vidéo (30s)… {url}")
+    time.sleep(30)
+    res = api("POST", "me/media", media_type="REELS", video_url=url,
+              caption=caption, share_to_feed="true")
+    wait_container(res["id"], timeout=600)
+    last_err = None
+    for attempt in range(12):
+        try:
+            pub = api("POST", "me/media_publish", creation_id=res["id"])
+            log(f"REEL PUBLIÉ ✔ media id {pub['id']}")
+            return pub["id"]
+        except RuntimeError as e:
+            last_err = e
+            log(f"média pas encore prêt (tentative {attempt+1}/12), nouvel essai dans 15s…")
+            time.sleep(15)
+    raise last_err
+
+
 def publish_carousel(image_paths, caption):
     log("attente de la propagation des images (30s)…")
     time.sleep(30)
@@ -127,25 +147,16 @@ def main():
     log(f"compte connecté : @{me.get('username')}")
 
     outdir = f"out/{date}-{slot}"
-    if slot == "matin":
-        cpath = f"content/gospel/{date}.json"
-        if not os.path.exists(cpath):
-            log(f"pas de contenu {cpath} — stock à recharger !")
-            return
-        content = json.load(open(cpath))
-        import gen_carousel
-        paths = gen_carousel.build(content, outdir, theme=content.get("theme", "aube"))
-    else:
-        cpath = f"content/evening/{date}.json"
-        if not os.path.exists(cpath):
-            log(f"pas de contenu {cpath} — stock à recharger !")
-            return
-        content = json.load(open(cpath))
-        import gen_v2
-        paths = gen_v2.render(content["slides"], outdir, content.get("theme", "nuit"))
+    cpath = (f"content/gospel/{date}.json" if slot == "matin"
+             else f"content/evening/{date}.json")
+    if not os.path.exists(cpath):
+        log(f"pas de contenu {cpath} — stock à recharger !")
+        return
+    import gen_reel
+    video, caption = gen_reel.reel_for_slot(date, slot, outdir)
 
-    git_push([outdir], f"slides {date} {slot}")
-    media_id = publish_carousel(paths, content["caption"])
+    git_push([outdir], f"reel {date} {slot}")
+    media_id = publish_reel(video, caption)
 
     state.setdefault(date, {})[slot] = media_id
     json.dump(state, open("state.json", "w"), indent=2)

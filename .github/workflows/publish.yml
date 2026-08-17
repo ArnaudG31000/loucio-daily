@@ -37,7 +37,7 @@ jobs:
       - name: Dependances
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-dejavu fonts-liberation
+          sudo apt-get install -y -qq fonts-dejavu fonts-liberation ffmpeg
           pip install --quiet pillow requests
 
       - name: Creneau

@@ -1,72 +1,58 @@
 #!/usr/bin/env python3
-"""Reel typographique quotidien : teaser du post du soir, dans le style des carrousels.
+"""Reels quotidiens Loucio : les carrousels matin/soir rendus en vidéo.
+
+Slides FIXES (aucun zoom), fondus enchaînés doux, musique de fond
+(assets/reel_music.mp3), format 9:16 (1080x1920) : la slide 4:5 est posée sur
+un fond dégradé qui prolonge ses couleurs. Aucune dépendance IA : Pillow + ffmpeg.
 
 Usage :
-  python gen_reel.py 2026-08-18                    # génère out/reel/2026-08-18/
-  python gen_reel.py --auto                        # remplit reels/queue/ pour aujourd'hui si vide
-
-Le reel de 13h30 tease le carrousel du soir (content/evening/<date>.json) : le hook
-de l'histoire ou de la question, la mise en situation, puis « la suite ce soir à 21h ».
-Jamais la réponse. Zoom lent alterné, fondus enchaînés, 1080x1920 30 fps, musique
-douce si assets/reel_music.mp3 existe. Aucune dépendance IA : Pillow + ffmpeg.
+  python gen_reel.py 2026-08-18 matin out/2026-08-18-matin
+  python gen_reel.py 2026-08-18 soir  out/2026-08-18-soir
 """
-import argparse, json, os, subprocess, sys, tempfile
-from datetime import datetime, timedelta
+import json, os, subprocess, sys, tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from PIL import Image
 import gen_carousel as gc
 import gen_v2
 
 FPS = 30
-FADE = 0.5
-
-
-def slides_teaser(e):
-    """Teaser du post du soir : hook + mise en situation, sans jamais la réponse."""
-    ev = e["slides"]
-    hook = ev[0]
-    setup = next((s for s in ev[1:] if s["type"] == "body"), None)
-    reponse = e.get("format") == "reponse"
-    suite = ("La réponse de Loucio : ce soir, 21h." if reponse
-             else "La suite de l'histoire : ce soir, 21h.")
-    slides = [{"type": "hook", "text": hook["text"],
-               "sub": hook.get("sub", ""), "size": hook.get("size", 60)}]
-    if setup:
-        slides.append({"type": "body", "text": setup["text"], "size": 46})
-    slides.append({"type": "punch", "text": suite, "size": 58})
-    slides.append({"type": "cta", "text": "Ne rate pas la suite",
-                   "sub": "Abonne-toi 🤍 Et si tu veux en parler dès maintenant, "
-                          "Loucio t'écoute. Lien en bio."})
-    return slides
-
-
-def teaser_caption(e):
-    hook = e["slides"][0]["text"]
-    reponse = e.get("format") == "reponse"
-    suite = "La réponse de Loucio" if reponse else "La suite de l'histoire"
-    tags = next((l for l in e.get("caption", "").splitlines()
-                 if l.startswith("#")), "#foi #prière #catholique")
-    return f"{hook}\n\n{suite} ce soir à 21h, ici même 🤍\n\n{tags}"
+FADE = 0.6
+RW, RH = 1080, 1920
+MUSIC = "assets/reel_music.mp3"
 
 
 def duration(text):
-    words = len(text.split())
-    return max(3.5, min(6.5, 2.0 + words / 2.6))
+    words = len(str(text).split())
+    return max(3.5, min(8.0, 2.0 + words / 2.6))
 
 
-def make_clip(png, secs, zoom_in, out):
-    frames = int(secs * FPS)
-    z = (f"1+0.08*on/{frames}" if zoom_in else f"1.08-0.08*on/{frames}")
-    vf = (f"scale=2160:3840,zoompan=z='{z}':x='(iw-iw/zoom)/2'"
-          f":y='(ih-ih/zoom)/2':d=1:s=1080x1920:fps={FPS}")
+def pad_slide(src, dst):
+    """Pose la slide 4:5 au centre d'un canevas 9:16, fond dégradé assorti."""
+    img = Image.open(src).convert("RGB")
+    w, h = img.size
+    top = img.resize((1, 1), box=(0, 0, w, 2)).getpixel((0, 0))
+    bot = img.resize((1, 1), box=(0, h - 2, w, h)).getpixel((0, 0))
+    col = Image.new("RGB", (1, RH))
+    for y in range(RH):
+        t = y / (RH - 1)
+        col.putpixel((0, y), tuple(int(top[i] + (bot[i] - top[i]) * t)
+                                   for i in range(3)))
+    canvas = col.resize((RW, RH))
+    canvas.paste(img, ((RW - w) // 2, (RH - h) // 2))
+    canvas.save(dst)
+
+
+def make_clip(png, secs, out):
     subprocess.run(
         ["ffmpeg", "-y", "-loglevel", "error", "-loop", "1",
          "-framerate", str(FPS), "-t", f"{secs:.2f}", "-i", png,
-         "-vf", vf, "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+         "-vf", f"scale={RW}:{RH},fps={FPS}",
+         "-c:v", "libx264", "-preset", "fast", "-crf", "18",
          "-pix_fmt", "yuv420p", out], check=True)
 
 
-def assemble(clips, durs, out, music=None):
+def assemble(clips, durs, out, music=MUSIC):
     args = ["ffmpeg", "-y", "-loglevel", "error"]
     for c in clips:
         args += ["-i", c]
@@ -94,54 +80,46 @@ def assemble(clips, durs, out, music=None):
     return total
 
 
-def generate(date, outdir):
-    src = f"content/evening/{date}.json"
-    e = json.load(open(src))
-    os.makedirs(outdir, exist_ok=True)
-    slides = slides_teaser(e)
+def video_from_pngs(pngs, texts, outfile):
+    durs = [duration(texts[i]) if i < len(texts) else 3.0
+            for i in range(len(pngs))]
     with tempfile.TemporaryDirectory() as tmp:
-        pngs = gen_v2.render(slides, tmp, theme=e.get("theme", "nuit"))
-        durs = [duration(s.get("text", "") + " " + s.get("sub", ""))
-                for s in slides]
-        durs += [3.0] * (len(pngs) - len(slides))  # slide produit éventuelle
         clips = []
         for i, p in enumerate(pngs):
+            padded = os.path.join(tmp, f"pad_{i}.png")
+            pad_slide(p, padded)
             c = os.path.join(tmp, f"clip_{i}.mp4")
-            make_clip(p, durs[i], zoom_in=(i % 2 == 0), out=c)
+            make_clip(padded, durs[i], c)
             clips.append(c)
-        video = os.path.join(outdir, f"{date}-teaser.mp4")
-        total = assemble(clips, durs, video, music="assets/reel_music.mp3")
-    caption = teaser_caption(e)
-    cap_path = os.path.join(outdir, f"{date}-teaser.txt")
-    open(cap_path, "w").write(caption)
-    print(f"ok {video} ({total:.1f}s)")
-    return video, cap_path
+        total = assemble(clips, durs, outfile)
+    return total
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("date", nargs="?")
-    ap.add_argument("--auto", action="store_true",
-                    help="génère le reel de demain dans reels/queue/ si la file est vide")
-    ap.add_argument("--out", default=None)
-    a = ap.parse_args()
-    if a.auto:
-        queue = "reels/queue"
-        pending = [f for f in os.listdir(queue) if f.endswith(".mp4")] \
-            if os.path.isdir(queue) else []
-        if pending:
-            print("file non vide, pas de génération")
-            return
-        from zoneinfo import ZoneInfo
-        date = datetime.now(ZoneInfo("Europe/Paris")).strftime("%Y-%m-%d")
-        if not os.path.exists(f"content/evening/{date}.json"):
-            print(f"pas de contenu pour {date}, abandon")
-            return
-        generate(date, queue)
-    else:
-        date = a.date or datetime.now().strftime("%Y-%m-%d")
-        generate(date, a.out or f"out/reel/{date}")
+def reel_for_slot(date, slot, outdir):
+    """Génère le reel du créneau. Retourne (chemin_mp4, légende)."""
+    os.makedirs(outdir, exist_ok=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        if slot == "matin":
+            c = json.load(open(f"content/gospel/{date}.json"))
+            pngs = gc.build(c, tmp, theme=c.get("theme", "aube"))
+            texts = [
+                (c.get("question") or c["hook"]) + " " + c.get("saint", ""),
+                c["hook"], c["gospel"], c["meditation_1"], c["meditation_2"],
+                c.get("prayer", ""),
+                c.get("cta_title", "") + " " + c.get("cta_sub", ""),
+            ]
+        else:
+            c = json.load(open(f"content/evening/{date}.json"))
+            pngs = gen_v2.render(c["slides"], tmp, c.get("theme", "nuit"))
+            texts = [s.get("text", "") + " " + s.get("sub", "")
+                     for s in c["slides"]]
+        video = os.path.join(outdir, f"{date}-{slot}.mp4")
+        total = video_from_pngs(pngs, texts, video)
+    print(f"[gen_reel] ok {video} ({total:.1f}s)")
+    return video, c["caption"]
 
 
 if __name__ == "__main__":
-    main()
+    date, slot = sys.argv[1], sys.argv[2]
+    outdir = sys.argv[3] if len(sys.argv) > 3 else f"out/reel/{date}-{slot}"
+    reel_for_slot(date, slot, outdir)
