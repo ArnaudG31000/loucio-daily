@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Reel typographique quotidien : l'évangile du jour animé, dans le style des carrousels.
+"""Reel typographique quotidien : teaser du post du soir, dans le style des carrousels.
 
 Usage :
   python gen_reel.py 2026-08-18                    # génère out/reel/2026-08-18/
-  python gen_reel.py --auto                        # remplit reels/queue/ pour demain si vide
+  python gen_reel.py --auto                        # remplit reels/queue/ pour aujourd'hui si vide
 
-Le reel reprend le carrousel du matin (content/gospel/<date>.json) : hook question,
-citation de l'évangile, deux méditations, appel à l'action. Zoom lent alterné,
-fondus enchaînés, 1080x1920 30 fps. Aucune dépendance IA : Pillow + ffmpeg.
+Le reel de 13h30 tease le carrousel du soir (content/evening/<date>.json) : le hook
+de l'histoire ou de la question, la mise en situation, puis « la suite ce soir à 21h ».
+Jamais la réponse. Zoom lent alterné, fondus enchaînés, 1080x1920 30 fps, musique
+douce si assets/reel_music.mp3 existe. Aucune dépendance IA : Pillow + ffmpeg.
 """
 import argparse, json, os, subprocess, sys, tempfile
 from datetime import datetime, timedelta
@@ -20,16 +21,32 @@ FPS = 30
 FADE = 0.5
 
 
-def slides_from_gospel(g):
-    return [
-        {"type": "hook", "text": g["question"], "size": 64,
-         "sub": f"Évangile du jour · {g.get('date_label', '')}"},
-        {"type": "quote", "eyebrow": g.get("ref", "évangile"),
-         "text": g["hook"], "size": 52},
-        {"type": "body", "text": g["meditation_1"], "size": 46},
-        {"type": "body", "text": g["meditation_2"], "size": 46},
-        {"type": "cta", "text": g["cta_title"], "sub": g.get("cta_sub", "")},
-    ]
+def slides_teaser(e):
+    """Teaser du post du soir : hook + mise en situation, sans jamais la réponse."""
+    ev = e["slides"]
+    hook = ev[0]
+    setup = next((s for s in ev[1:] if s["type"] == "body"), None)
+    reponse = e.get("format") == "reponse"
+    suite = ("La réponse de Loucio : ce soir, 21h." if reponse
+             else "La suite de l'histoire : ce soir, 21h.")
+    slides = [{"type": "hook", "text": hook["text"],
+               "sub": hook.get("sub", ""), "size": hook.get("size", 60)}]
+    if setup:
+        slides.append({"type": "body", "text": setup["text"], "size": 46})
+    slides.append({"type": "punch", "text": suite, "size": 58})
+    slides.append({"type": "cta", "text": "Ne rate pas la suite",
+                   "sub": "Abonne-toi 🤍 Et si tu veux en parler dès maintenant, "
+                          "Loucio t'écoute. Lien en bio."})
+    return slides
+
+
+def teaser_caption(e):
+    hook = e["slides"][0]["text"]
+    reponse = e.get("format") == "reponse"
+    suite = "La réponse de Loucio" if reponse else "La suite de l'histoire"
+    tags = next((l for l in e.get("caption", "").splitlines()
+                 if l.startswith("#")), "#foi #prière #catholique")
+    return f"{hook}\n\n{suite} ce soir à 21h, ici même 🤍\n\n{tags}"
 
 
 def duration(text):
@@ -78,12 +95,12 @@ def assemble(clips, durs, out, music=None):
 
 
 def generate(date, outdir):
-    src = f"content/gospel/{date}.json"
-    g = json.load(open(src))
+    src = f"content/evening/{date}.json"
+    e = json.load(open(src))
     os.makedirs(outdir, exist_ok=True)
-    slides = slides_from_gospel(g)
+    slides = slides_teaser(e)
     with tempfile.TemporaryDirectory() as tmp:
-        pngs = gen_v2.render(slides, tmp, theme=g.get("theme", "aube"))
+        pngs = gen_v2.render(slides, tmp, theme=e.get("theme", "nuit"))
         durs = [duration(s.get("text", "") + " " + s.get("sub", ""))
                 for s in slides]
         durs += [3.0] * (len(pngs) - len(slides))  # slide produit éventuelle
@@ -92,10 +109,10 @@ def generate(date, outdir):
             c = os.path.join(tmp, f"clip_{i}.mp4")
             make_clip(p, durs[i], zoom_in=(i % 2 == 0), out=c)
             clips.append(c)
-        video = os.path.join(outdir, f"{date}-evangile.mp4")
+        video = os.path.join(outdir, f"{date}-teaser.mp4")
         total = assemble(clips, durs, video, music="assets/reel_music.mp3")
-    caption = g.get("caption", "")
-    cap_path = os.path.join(outdir, f"{date}-evangile.txt")
+    caption = teaser_caption(e)
+    cap_path = os.path.join(outdir, f"{date}-teaser.txt")
     open(cap_path, "w").write(caption)
     print(f"ok {video} ({total:.1f}s)")
     return video, cap_path
@@ -117,7 +134,7 @@ def main():
             return
         from zoneinfo import ZoneInfo
         date = datetime.now(ZoneInfo("Europe/Paris")).strftime("%Y-%m-%d")
-        if not os.path.exists(f"content/gospel/{date}.json"):
+        if not os.path.exists(f"content/evening/{date}.json"):
             print(f"pas de contenu pour {date}, abandon")
             return
         generate(date, queue)
