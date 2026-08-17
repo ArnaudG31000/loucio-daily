@@ -8,3 +8,11 @@ Le token Instagram est rafraîchi chaque lundi par refresh-token-instagram :
 le nouveau token est chiffré avec le secret IG_TOKEN (qui sert d'amorce et
 de clé, ne pas le modifier) et committé dans .automation/ig_token.enc,
 déchiffré par publish.py à l'exécution.
+
+## Reels (créneau de l'après-midi)
+
+Dépose une vidéo dans `reels/queue/` : `mon-reel.mp4` + `mon-reel.txt` (la légende).
+Chaque jour à 13h30 (secours 14h30), le Reel le plus ancien de la file est publié
+sur Instagram, puis archivé dans `reels/published/`. Un seul Reel par jour ; file
+vide = rien ne part. Lancement manuel possible : Actions → publication-reel-loucio.
+Contraintes vidéo : MP4 vertical 9:16, 3 s à 15 min, < 100 Mo.

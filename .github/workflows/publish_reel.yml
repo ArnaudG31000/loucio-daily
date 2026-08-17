@@ -1,0 +1,32 @@
+name: publication-reel-loucio
+
+on:
+  schedule:
+    - cron: '30 11 * * *'   # 13h30 Paris (été)
+    - cron: '30 12 * * *'   # 14h30 Paris (été) — passage de secours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-reel
+  cancel-in-progress: false
+
+jobs:
+  publish-reel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dependances
+        run: pip install --quiet requests
+
+      - name: Publier le reel
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python publish_reel.py
