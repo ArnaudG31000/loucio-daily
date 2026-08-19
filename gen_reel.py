@@ -24,7 +24,7 @@ MUSIC = "assets/reel_music.mp3"
 
 def duration(text):
     words = len(str(text).split())
-    return max(3.5, min(8.0, 2.0 + words / 2.6))
+    return max(2.6, min(5.8, 1.4 + words / 3.4))
 
 
 def pad_slide(src, dst):
