@@ -129,7 +129,7 @@ def main():
     now = datetime.now(PARIS)
     slot = args.slot.strip()
     if slot == "auto":
-        if 5 <= now.hour <= 9:
+        if 5 <= now.hour <= 10:
             slot = "matin"
         elif 19 <= now.hour <= 23:
             slot = "soir"
