@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Je n'ai pas prié de tout l'été. Est-ce que Dieu m'en veut ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#rentrée #prière #culpabilité #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Je n'ai pas prié de tout l'été. Est-ce que Dieu m'en veut ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 58
+    },
+    {
+      "type": "body",
+      "text": "Elle rentrait de vacances. Deux mois sans prier, sans messe, sans y penser vraiment. Et au moment de reprendre, cette gêne : est-ce qu'on peut revenir comme si de rien n'était ?"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Dieu n'est pas un abonnement qu'on résilie faute d'usage. Il ne compte pas tes absences. Il regarde la porte par laquelle tu reviens. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Relis le père du fils prodigue : pas un reproche, pas un bilan. Il court, il embrasse, il fait la fête. Ton été n'intéresse pas Dieu autant que ton retour. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Ne rattrape rien. Recommence petit : une phrase ce soir, la même demain. La fidélité se reconstruit comme elle s'était défaite, un jour à la fois. »"
+    },
+    {
+      "type": "punch",
+      "text": "Dieu ne compte pas tes absences. Il regarde ton retour."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
