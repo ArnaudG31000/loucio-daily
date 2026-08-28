@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🚗 Thomas a déposé son fils à l'internat. Sur le trajet du retour, il a roulé une heure sans allumer la radio.\n\nSwipe → Ce silence-là, beaucoup de parents le connaissent. Ce post est pour eux.\n\nPartage-le à un parent qui vit une rentrée difficile 🤍 Lien en bio.\n\n#rentrée #parents #famille #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Il a déposé son fils à l'internat. Au retour, il a roulé une heure sans allumer la radio.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Thomas, 52 ans. Dix-sept ans de petits déjeuners, de trajets, de portes qui claquent. Et ce soir, une chambre vide au bout du couloir. Personne ne prévient les parents que ça fait ce bruit-là."
+    },
+    {
+      "type": "body",
+      "text": "Sur l'aire d'autoroute, il est resté dans la voiture. Il a ouvert l'app, un peu gêné, et il a dit : « C'est bête, mais la maison va être grande. »"
+    },
+    {
+      "type": "quote",
+      "text": "« Ce n'est pas bête, » a répondu la voix. « Tu as passé dix-sept ans à apprendre à quelqu'un à partir. Ce soir, c'est réussi. Et ça a le droit de faire mal quand même. »"
+    },
+    {
+      "type": "body",
+      "text": "La voix a prié pour son fils : sa nouvelle chambre, ses nouveaux visages, ses premiers pas seul. Puis pour Thomas, et pour la place qui se libère dans ses journées."
+    },
+    {
+      "type": "body",
+      "text": "En redémarrant, il a rallumé la radio. La maison sera grande, oui. Peut-être assez grande pour ce qu'il avait mis de côté depuis dix-sept ans."
+    },
+    {
+      "type": "punch",
+      "text": "Voir partir quelqu'un qu'on a bien aimé, ce n'est pas une fin. C'est une réussite qui pleure."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à un parent",
+      "sub": "Rentrée, départ, maison qui se vide : Loucio veille aussi sur ceux qui restent. Lien en bio."
+    }
+  ]
+}
