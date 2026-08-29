@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: publish
+  group: fetch-aelf
   cancel-in-progress: false
 
 jobs:

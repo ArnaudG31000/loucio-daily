@@ -2,12 +2,26 @@ name: publication-loucio
 
 on:
   schedule:
-    - cron: '30 4 * * *'
-    - cron: '30 5 * * *'
-    - cron: '30 6 * * *'    # 2e secours matin (8h30 Paris été)
-    - cron: '0 19 * * *'
-    - cron: '0 20 * * *'
-    - cron: '0 21 * * *'    # 2e secours soir (23h Paris été)
+    # GitHub retarde souvent les crons de plusieurs heures, surtout aux heures
+    # rondes : on multiplie les passages à minutes décalées. Le script sort en
+    # 30 s si le créneau est déjà publié ou hors fenêtre — aucun doublon possible.
+    # Matin (fenêtre 5h-10h59 Paris)
+    - cron: '33 4 * * *'
+    - cron: '3 5 * * *'
+    - cron: '33 5 * * *'
+    - cron: '3 6 * * *'
+    - cron: '33 6 * * *'
+    - cron: '3 7 * * *'
+    # Soir (fenêtre 19h-23h59 Paris)
+    - cron: '3 19 * * *'
+    - cron: '23 19 * * *'
+    - cron: '43 19 * * *'
+    - cron: '3 20 * * *'
+    - cron: '23 20 * * *'
+    - cron: '43 20 * * *'
+    - cron: '3 21 * * *'
+    - cron: '23 21 * * *'
+    - cron: '43 21 * * *'
   push:
     paths:
       - 'trigger/**'
