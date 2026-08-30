@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« C'est la rentrée demain et je n'ai pas dormi. Est-ce que je peux prier pour quelque chose d'aussi petit ? » : question reçue hier soir.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#rentrée #stress #prière #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« C'est la rentrée demain et je n'ai pas dormi. Est-ce que je peux prier pour quelque chose d'aussi petit ? »",
+      "sub": "Question reçue hier soir.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Un nouveau poste, une nouvelle classe, un nouveau trajet. Elle trouvait sa peur ridicule : il y a des gens malades, des gens en deuil. Et elle, elle n'arrivait pas à dormir pour une rentrée."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Il n'y a pas de petite prière. Ce qui t'empêche de dormir cette nuit n'est pas petit : c'est ta vie de demain. Dieu ne trie pas les sujets par importance. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Jésus a prié avant chaque grande étape. Pas parce qu'il doutait de Dieu : parce que c'est lourd, un commencement. Tu es en très bonne compagnie. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Ce soir, confie juste demain matin : le réveil, le trajet, le premier bonjour. Pas toute l'année. La grâce se donne un jour à la fois. »"
+    },
+    {
+      "type": "punch",
+      "text": "Il n'y a pas de petite prière. Il n'y a que des vies confiées."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Rentrée, nouveau départ : Loucio prie avec toi la veille des grands jours. Lien en bio."
+    }
+  ]
+}

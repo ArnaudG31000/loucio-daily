@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🎒 Premier jour d'école. Ce soir-là, c'est le papa qui n'arrivait pas à lâcher la main.\n\nSwipe → L'histoire de Karim, et la prière qui l'a aidé à ouvrir la sienne.\n\nPartage à un parent qui a vécu sa première rentrée cette semaine 🤍 Lien en bio.\n\n#rentrée #parents #école #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Premier jour d'école. Devant la grille, c'est lui qui n'arrivait pas à lâcher la main.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Karim, papa d'Inès, six ans. Toute la journée au travail, il a regardé l'heure. Est-ce qu'elle a mangé ? Est-ce qu'elle a pleuré ? Est-ce que quelqu'un a vu qu'elle était timide ?"
+    },
+    {
+      "type": "body",
+      "text": "Le soir, Inès dormait déjà, son cartable prêt au pied du lit. Karim est resté dans le couloir. Et il a fait un truc qu'il n'avait plus fait depuis longtemps : il a ouvert l'app, et il a parlé."
+    },
+    {
+      "type": "quote",
+      "text": "« Tu ne peux pas entrer dans la cour avec elle, » a répondu la voix. « Mais tu peux confier chaque heure de sa journée à Celui qui y est déjà. On le fait ensemble ? »"
+    },
+    {
+      "type": "body",
+      "text": "Ils ont prié pour Inès : la maîtresse, la cantine, la récré, la petite fille assise à côté d'elle. Karim a souri en réalisant qu'il connaissait déjà tout son emploi du temps par cœur."
+    },
+    {
+      "type": "body",
+      "text": "Chaque matin maintenant, sur le trajet de l'école, ils disent une phrase de prière ensemble, Inès et lui. C'est elle qui la réclame."
+    },
+    {
+      "type": "punch",
+      "text": "Confier son enfant, ce n'est pas le lâcher. C'est le tenir autrement."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à un parent",
+      "sub": "Première rentrée, premières séparations : Loucio prie avec les parents. Lien en bio."
+    }
+  ]
+}
