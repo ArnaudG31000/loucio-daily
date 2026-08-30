@@ -127,18 +127,21 @@ def main():
     args = ap.parse_args()
 
     now = datetime.now(PARIS)
+    date = f"{now:%Y-%m-%d}"
+    state = json.load(open("state.json")) if os.path.exists("state.json") else {}
+    day = state.get(date, {})
+
     slot = args.slot.strip()
     if slot == "auto":
-        if 5 <= now.hour <= 10:
+        # GitHub exécute les crons avec des heures de retard : le matin est
+        # rattrapable jusqu'à 18h59 s'il n'a pas encore été publié.
+        if 5 <= now.hour <= 18 and not day.get("matin"):
             slot = "matin"
-        elif 19 <= now.hour <= 23:
+        elif 19 <= now.hour <= 23 and not day.get("soir"):
             slot = "soir"
         else:
-            log(f"hors créneau ({now:%H:%M} Paris), rien à faire")
+            log(f"hors créneau ou déjà publié ({now:%H:%M} Paris), rien à faire")
             return
-    date = f"{now:%Y-%m-%d}"
-
-    state = json.load(open("state.json")) if os.path.exists("state.json") else {}
     if state.get(date, {}).get(slot):
         log(f"{date} {slot} déjà publié, on sort")
         return
