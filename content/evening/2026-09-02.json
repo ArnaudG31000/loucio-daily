@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Je prie pour ma fille mais elle ne veut plus entendre parler de Dieu. Est-ce que ça sert à quelque chose ? » : question reçue lundi.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#famille #prière #transmission #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Je prie pour ma fille mais elle ne veut plus entendre parler de Dieu. Est-ce que ça sert à quelque chose ? »",
+      "sub": "Question reçue lundi.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Elle a élevé ses enfants dans la foi. Aujourd'hui sa fille de trente ans lui demande de ne plus aborder le sujet. Alors elle prie en silence, et certains soirs elle se demande si ses prières tombent dans le vide."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Aucune prière ne tombe dans le vide. Tu ne vois pas ce qu'elle fait, c'est différent. Sainte Monique a prié dix-sept ans pour son fils : il s'appelle saint Augustin. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Ta fille refuse les mots, pas l'amour. Continue de prier en silence, et laisse ta vie parler à ta place : la paix, la patience, la façon dont tu l'accueilles. C'est ta prière rendue visible. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et dépose ce fardeau : ce n'est pas toi qui convertis, c'est Dieu qui travaille les cœurs. Ta part, c'est d'aimer et de confier. Sa part, c'est le reste. »"
+    },
+    {
+      "type": "punch",
+      "text": "Prier pour quelqu'un qui ne veut plus y croire, c'est l'aimer deux fois."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
