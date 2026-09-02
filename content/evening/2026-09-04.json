@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Je m'endors systématiquement en priant le soir. Ça me culpabilise. » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#prière #sommeil #culpabilité #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Je m'endors systématiquement en priant le soir. Ça me culpabilise. »",
+      "sub": "Question reçue cette semaine.",
+      "size": 56
+    },
+    {
+      "type": "body",
+      "text": "Chaque soir, même scénario : il commence un Notre Père, et le sommeil l'emporte avant la fin. Au réveil, un petit goût d'échec : même prier, il n'y arrive pas jusqu'au bout."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Sainte Thérèse de Lisieux s'endormait en priant, et elle en riait : les parents aiment autant leur enfant endormi qu'éveillé. Tu t'endors dans une conversation avec Dieu. Il y a pire endroit. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« S'endormir en priant, ce n'est pas abandonner la prière : c'est la finir en confiance. Tu remets la journée entre ses mains, littéralement. Le sommeil est ta dernière parole. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Si tu veux une prière éveillée, déplace-la : deux minutes le matin, ou sur un trajet. Et garde celle du soir comme elle est : une prière qui se termine dans les bras de Dieu. »"
+    },
+    {
+      "type": "punch",
+      "text": "S'endormir en priant, c'est finir sa journée entre de bonnes mains."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
