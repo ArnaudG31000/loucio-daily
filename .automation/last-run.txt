@@ -1,1 +1,1 @@
-2026-09-04T06:50Z — maintenance (session principale) : 3/09 matin+soir publiés OK, stock rédigé jusqu au 5/09 (Lc 6,1-5 sainte Teresa + récit Lucas), matin 4/09 attendu par rattrapage. Chaîne send_later remplacée par routine récurrente unique (plus de demandes quotidiennes).
+2026-09-04T17:10Z — maintenance routine 17h35 (2e passage du jour, complément J+2) : matin 4/09 publié OK, stock rédigé jusqu au 6/09 (Mt 18,15-20 dimanche + reponse héritage), liturgie 6/09 obtenue via workflow_dispatch. Routine récurrente unique opérationnelle, notifications réduites aux incidents.

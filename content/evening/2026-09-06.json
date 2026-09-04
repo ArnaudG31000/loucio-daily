@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Mon frère et moi, on ne se parle plus depuis l'héritage. Prier, ça change quoi ? » : question reçue un dimanche.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#famille #réconciliation #frère #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Mon frère et moi, on ne se parle plus depuis l'héritage. Prier, ça change quoi ? »",
+      "sub": "Question reçue un dimanche.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Deux ans de silence. Des fêtes de famille coupées en deux, une mère qui fait la navette entre les deux maisons. Il dit qu'il n'est même plus en colère : juste fatigué, et incapable de faire le premier pas."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Prier ne remplacera pas la conversation qu'il faudra avoir un jour. Mais la prière prépare le terrain : elle adoucit TON cœur en premier. Et c'est toujours par là que ça commence. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Commence petit : prie POUR lui, pas contre lui. Une phrase par jour. Tu verras qu'on ne peut pas prier longtemps pour quelqu'un et continuer de le voir comme un adversaire. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et quand tu seras prêt, un message suffit : pas d'explications, pas de dossier. Juste : tu me manques. L'héritage a divisé vos comptes, pas votre enfance. »"
+    },
+    {
+      "type": "punch",
+      "text": "On ne peut pas prier pour quelqu'un et le garder pour ennemi."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
