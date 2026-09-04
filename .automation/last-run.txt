@@ -1,1 +1,1 @@
-2026-09-02T20:20Z — maintenance (session principale, rattrapage : session gelée 2 jours) : publications 31/08→2/09 toutes OK, stock rédigé jusqu au 4/09 (Lc 5,1-11 et Lc 5,33-39), alternance soir recit 3/09 / reponse 4/09. Chaîne réarmée pour les 3 et 4/09.
+2026-09-04T06:50Z — maintenance (session principale) : 3/09 matin+soir publiés OK, stock rédigé jusqu au 5/09 (Lc 6,1-5 sainte Teresa + récit Lucas), matin 4/09 attendu par rattrapage. Chaîne send_later remplacée par routine récurrente unique (plus de demandes quotidiennes).
