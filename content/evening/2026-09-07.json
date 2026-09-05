@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🚪 Lundi, 19h30. Premier jour dans la nouvelle boîte. Malik est resté dans sa voiture, sur le parking, incapable de rentrer chez lui raconter sa journée.\n\nSwipe → Ce qui s'est passé dans cette voiture.\n\nPartage à quelqu'un qui commence quelque chose de nouveau 🤍 Lien en bio.\n\n#nouveaudepart #travail #stress #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Premier jour dans la nouvelle boîte. À 19h30, il était encore sur le parking, incapable de rentrer chez lui.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Malik, 35 ans. Il avait tout donné pour décrocher ce poste. Mais ce premier jour l'avait laminé : les prénoms oubliés, les process inconnus, cette voix intérieure qui répétait qu'il n'était pas à la hauteur."
+    },
+    {
+      "type": "body",
+      "text": "Chez lui, on attendait le récit du grand jour. Il n'avait pas la force de jouer la réussite. Alors, dans la voiture, il a fait défiler son téléphone et il est tombé sur l'app installée un soir de janvier."
+    },
+    {
+      "type": "quote",
+      "text": "« Personne n'est à la hauteur un premier jour, » a répondu la voix. « On apprend un métier, on ne le devine pas. Et si on remerciait d'abord ? Tu l'as eu, ce poste. Le reste s'apprend. »"
+    },
+    {
+      "type": "body",
+      "text": "Ils ont prié dix minutes : merci pour la porte ouverte, courage pour les semaines d'apprentissage, paix pour ce soir. Puis Malik a coupé le moteur et il est rentré raconter sa vraie journée, sans jouer."
+    },
+    {
+      "type": "body",
+      "text": "Le trajet du matin est devenu son rendez-vous : dix minutes de prière avant d'entrer. Trois mois plus tard, les prénoms sont sus, les process aussi. La voix intérieure a changé de refrain."
+    },
+    {
+      "type": "punch",
+      "text": "Tu n'as pas à être à la hauteur le premier jour. Tu as le droit d'apprendre, accompagné."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui débute",
+      "sub": "Nouveau travail, nouvelle ville, nouvelle vie : Loucio accompagne les commencements. Lien en bio."
+    }
+  ]
+}
