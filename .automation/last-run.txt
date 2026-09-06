@@ -1,1 +1,1 @@
-2026-09-05T15:45Z — maintenance routine 17h35 : matin 5/09 publié OK, soir 4/09 OK, stock rédigé jusqu au 7/09 (Lc 6,6-11 + récit Malik), liturgie 7/09 via workflow_dispatch. RAS.
+2026-09-06T15:45Z — maintenance routine 17h35 : matin 6/09 publié OK, soir 5/09 OK, stock rédigé jusqu au 8/09 (Nativité de Marie, Mt 1 + reponse prier Marie), liturgie 8/09 via workflow_dispatch. RAS.

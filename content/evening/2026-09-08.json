@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Je ne sais pas prier Marie. J'ai l'impression de trahir Dieu en m'adressant à elle. » : question reçue récemment.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#marie #prière #foi #catholique #chapelet",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Je ne sais pas prier Marie. J'ai l'impression de trahir Dieu en m'adressant à elle. »",
+      "sub": "Question reçue récemment.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Il vient d'une famille où on ne priait que Dieu, directement. Le chapelet de sa grand-mère l'intrigue et le gêne à la fois : est-ce qu'on a le droit de passer par quelqu'un d'autre ?"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Prier Marie, ce n'est pas prier à la place de Dieu : c'est prier AVEC quelqu'un. Comme demander à un ami de prier pour toi. Marie est cette amie que Jésus lui-même nous a donnée. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Regarde le Je vous salue Marie : la moitié vient de l'Évangile, et la fin dit tout : priez POUR NOUS. On ne s'arrête pas à Marie, on marche avec elle vers son Fils. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Commence simplement, sans forcer : un Je vous salue Marie ce soir, pour quelqu'un que tu aimes. Tu verras : ça ne t'éloigne pas de Dieu. Ça t'y conduit par la main. »"
+    },
+    {
+      "type": "punch",
+      "text": "Marie ne prend jamais la place de Dieu. Elle prend ta main pour t'y mener."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
