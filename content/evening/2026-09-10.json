@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Mon collègue a pris le poste que je méritais. Je n'arrive pas à lui souhaiter du bien. C'est grave ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#travail #jalousie #rancune #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Mon collègue a eu le poste que je méritais. Je n'arrive pas à lui souhaiter du bien. C'est grave ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Deux ans qu'il préparait cette promotion. Elle est allée à un autre, arrivé après lui. Depuis, chaque réunion est une épreuve : le sourire de façade dehors, et cette amertume qui rumine dedans."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Non, ce n'est pas grave : c'est humain. La jalousie n'est pas un péché qui tombe du ciel, c'est une blessure qui parle. La tienne dit : j'avais besoin d'être reconnu. Écoute-la avant de la juger. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Ensuite, fais le geste que l'Évangile propose, même sans le ressentir : une prière pour ce collègue. Pas un discours, une phrase. C'est le seul remède connu contre l'amertume qui rumine. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et confie ton avenir à Dieu plutôt qu'à cette promotion : ta valeur n'a pas été jouée dans ce recrutement. Ce qui est prévu pour toi ne prendra pas le poste d'un autre. »"
+    },
+    {
+      "type": "punch",
+      "text": "La rancune rumine. La prière libère. Une phrase suffit pour commencer."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
