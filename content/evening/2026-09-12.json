@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« On m'a proposé d'être marraine et je ne pratique plus depuis des années. Je dois refuser ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#baptême #marraine #foi #catholique #famille",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« On m'a proposé d'être marraine et je ne pratique plus depuis des années. Je dois refuser ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Sa meilleure amie attend un petit garçon et la veut comme marraine. Elle est touchée, et paniquée : elle n'a pas mis les pieds dans une église depuis des années. Accepter, ce serait mentir ?"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Qu'on t'ait choisie dit déjà quelque chose : on a vu en toi quelqu'un capable de veiller sur une âme. Ce n'est pas un diplôme de pratique qu'on te demande, c'est un engagement de cœur. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Mais prends la question au sérieux, elle t'honore : être marraine, c'est promettre d'accompagner ce petit vers Dieu. Et on ne peut pas montrer un chemin qu'on refuse soi-même d'emprunter. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Alors vois-le comme une invitation à double sens : ce baptême peut être aussi le tien, celui de ton retour. Recommence petit, dès maintenant : une prière pour cet enfant. C'est déjà ton premier acte de marraine. »"
+    },
+    {
+      "type": "punch",
+      "text": "Parfois Dieu nous confie un enfant pour nous ramener nous-mêmes à la maison."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
