@@ -1,1 +1,1 @@
-2026-09-10T15:50Z — maintenance routine 17h35 : matin 10/09 publié OK, soir 9/09 OK, stock rédigé jusqu au 12/09 (Lc 6,43-49 arbre et fruits + reponse marraine), liturgie 12/09 via workflow_dispatch, worktree recréé après recyclage du conteneur. RAS.
+2026-09-11T15:50Z — maintenance routine 17h35 : matin 11/09 publié OK, soir 10/09 OK, stock rédigé jusqu au dimanche 13/09 (Mt 18,21-35 pardon 70x7, angle disproportion + récit Agathe et sa sœur, cohérent avec l évangile du jour), liturgie 13/09 via workflow_dispatch. RAS.
