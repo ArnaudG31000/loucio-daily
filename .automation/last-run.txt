@@ -1,1 +1,1 @@
-2026-09-11T15:50Z — maintenance routine 17h35 : matin 11/09 publié OK, soir 10/09 OK, stock rédigé jusqu au dimanche 13/09 (Mt 18,21-35 pardon 70x7, angle disproportion + récit Agathe et sa sœur, cohérent avec l évangile du jour), liturgie 13/09 via workflow_dispatch. RAS.
+2026-09-12T15:50Z — maintenance routine 17h35 : matin 12/09 publié OK, soir 11/09 OK, stock rédigé jusqu au 14/09 (Croix Glorieuse Jn 3,13-17 + reponse croix autour du cou, cohérents avec la fête), liturgie 14/09 via workflow_dispatch. RAS.

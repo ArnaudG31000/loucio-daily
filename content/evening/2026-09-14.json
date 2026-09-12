@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Je porte une croix autour du cou depuis toujours, mais je ne sais plus ce que j'y crois. C'est hypocrite ? » : question reçue hier.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#croix #foi #doute #catholique #prière",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Je porte une croix autour du cou depuis toujours, mais je ne sais plus ce que j'y crois. C'est hypocrite ? »",
+      "sub": "Question reçue hier.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "C'est la croix de sa communion, offerte par sa grand-mère. Il ne l'a jamais enlevée. Mais entre les doutes, les années sans messe et les questions sans réponse, il se demande s'il a encore le droit de la porter."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Hypocrite, c'est prétendre ce qu'on ne vit pas. Toi, tu portes une question autour du cou, pas un mensonge. Et une question qu'on garde si près du cœur, c'est déjà une forme de fidélité. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Cette croix dit peut-être ce que les mots n'arrivent plus à dire : que quelque chose en toi refuse de fermer la porte. On ne garde pas un bijou pareil par hasard, pendant vingt ans. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Alors garde-la, et fais-lui une place vivante : ce soir, tiens-la un instant dans ta main et dis simplement ce que tu ne sais plus. C'est une prière parfaitement honnête. »"
+    },
+    {
+      "type": "punch",
+      "text": "Porter une question près du cœur, c'est déjà une forme de foi."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
