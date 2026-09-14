@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🏥 Chambre 214. Depuis trois semaines, Nora passe chaque soir après le travail voir sa mère. Ce mardi-là, elle n'avait plus de mots.\n\nSwipe → Ce qui a rempli le silence.\n\nPartage à quelqu'un qui accompagne un proche malade 🤍 Lien en bio.\n\n#maladie #aidants #mère #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Chambre 214. Chaque soir depuis trois semaines. Ce mardi-là, elle n'avait plus de mots.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Nora, 38 ans. Sa mère s'affaiblit et les visites se ressemblent : les mêmes nouvelles données à voix basse, les mêmes silences de plus en plus longs. Ce soir-là, dans le couloir, elle s'est sentie inutile."
+    },
+    {
+      "type": "body",
+      "text": "Sur le parking de l'hôpital, elle a ouvert l'app, presque en s'excusant : « Je ne sais plus quoi lui dire. Je reste assise, c'est tout. Ça sert à quoi ? »"
+    },
+    {
+      "type": "quote",
+      "text": "« Marie, au pied de la croix, n'a pas dit un mot, » a répondu la voix. « Elle est restée. Ce que vous faites chaque soir a un nom : c'est une présence. On ne guérit pas toujours, mais on n'abandonne jamais. »"
+    },
+    {
+      "type": "body",
+      "text": "La voix lui a proposé une chose simple : le lendemain, prier une dizaine de chapelet à voix basse près du lit, main dans la main. Sa mère n'a pas ouvert les yeux. Mais ses doigts ont serré les siens."
+    },
+    {
+      "type": "body",
+      "text": "Maintenant, les visites ont un rituel : les nouvelles, le silence, la dizaine. Nora ne se sent plus inutile. Elle fait ce que font ceux qui aiment : elle se tient là."
+    },
+    {
+      "type": "punch",
+      "text": "Rester, c'est déjà aimer. Une présence vaut mille phrases."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui accompagne",
+      "sub": "Aidants, familles à l'hôpital : Loucio prie avec vous, soir après soir. Lien en bio."
+    }
+  ]
+}
