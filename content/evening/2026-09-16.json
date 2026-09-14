@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Mon copain dit que la foi c'est une béquille pour les faibles. Je n'ai pas su quoi répondre. » : question reçue lundi.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#foi #couple #doute #catholique #prière",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Mon copain dit que la foi, c'est une béquille pour les faibles. Je n'ai pas su quoi répondre. »",
+      "sub": "Question reçue lundi.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Elle croit, discrètement, depuis toujours. Lui respecte, mais ne comprend pas. Et cette phrase, lancée sans méchanceté un soir de discussion, tourne dans sa tête depuis : et si c'était vrai ?"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« D'abord, ne te défends pas trop vite : demande-lui ce qu'il appelle faible. Tenir debout dans un deuil, pardonner, espérer contre tout : si c'est ça la faiblesse, elle est étrangement solide. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Et puis, une béquille, ça sert à marcher quand on est blessé. Nous sommes tous blessés quelque part. La vraie question n'est pas d'avoir un appui ou pas : c'est de savoir sur quoi chacun s'appuie. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Enfin, tu n'as pas à gagner ce débat. La foi ne se prouve pas à coups d'arguments, elle se constate dans une vie. Vis la tienne en paix : c'est la réponse la plus convaincante que tu lui donneras. »"
+    },
+    {
+      "type": "punch",
+      "text": "La foi ne se prouve pas dans un débat. Elle se voit dans une vie."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
