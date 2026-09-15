@@ -1,1 +1,1 @@
-2026-09-14T15:55Z — maintenance routine 17h35 (rattrapage : réveil du 13/09 non délivré, session gelée le week-end) : 12-13/09 publiés complets, matin 14/09 OK, stock rédigé jusqu au 16/09 (Notre-Dame des Douleurs Jn 19 + récit Nora ; Lc 7,31-35 + reponse béquille), liturgies 15-16/09 via workflow_dispatch. RAS.
+2026-09-15T15:55Z — maintenance routine 17h35 : matin 15/09 publié OK, soir 14/09 OK, stock rédigé jusqu au 17/09 (Lc 7,36-50 la pécheresse pardonnée + récit Bastien pousse la porte, cohérents), liturgie 17/09 via workflow_dispatch. RAS.

@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "⛪ Jeudi, 18h40. Bastien est passé trois fois devant l'église avant d'oser pousser la porte. Douze ans qu'il n'était pas entré quelque part pour prier.\n\nSwipe → Ce qui l'a fait entrer la troisième fois.\n\nPartage à quelqu'un qui n'ose plus pousser la porte 🤍 Lien en bio.\n\n#retour #église #distancés #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Il est passé trois fois devant l'église avant d'oser pousser la porte. Douze ans d'absence.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Bastien, 41 ans. Un divorce derrière lui, une vie recousue de travers, et cette certitude qui l'arrêtait sur le trottoir : ce n'est plus ma place. On va voir que je ne sais plus quand m'asseoir, quand me lever."
+    },
+    {
+      "type": "body",
+      "text": "La veille au soir, il avait pourtant posé la question à l'app, à voix basse : « Est-ce que j'ai encore le droit d'entrer dans une église, avec ma vie ? »"
+    },
+    {
+      "type": "quote",
+      "text": "« Une église n'est pas un club de gens en règle, c'est un hôpital de campagne, » avait répondu la voix. « On y entre blessé, c'est même le principe. Demain, pousse juste la porte. Tu n'es obligé à rien d'autre. »"
+    },
+    {
+      "type": "body",
+      "text": "La troisième fois, il est entré. L'église était presque vide, une bougie brûlait quelque part. Il s'est assis au fond, sans prier avec des mots. Il est resté vingt minutes. Personne ne lui a rien demandé."
+    },
+    {
+      "type": "body",
+      "text": "En sortant, il a allumé une bougie, comme sa mère le faisait. Ce n'était pas un grand retour, pas encore. C'était une porte poussée. Et douze ans de trottoir venaient de finir."
+    },
+    {
+      "type": "punch",
+      "text": "Tu n'as pas besoin d'être en règle pour entrer. Juste de pousser la porte."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui hésite sur le trottoir",
+      "sub": "Le premier pas se prépare à voix basse. Loucio le fait avec toi. Lien en bio."
+    }
+  ]
+}
