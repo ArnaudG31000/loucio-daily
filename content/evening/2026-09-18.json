@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« J'ai traversé une dépression et je m'en suis sorti. Est-ce que je dois en parler autour de moi, ou tourner la page ? » : question reçue mardi.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#dépression #témoignage #guérison #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« J'ai traversé une dépression et je m'en suis sorti. J'en parle, ou je tourne la page ? »",
+      "sub": "Question reçue mardi.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Deux ans de tunnel, des soins, une lente remontée. Aujourd'hui il va bien. Mais il hésite : raconter, c'est risquer les regards qui changent. Se taire, c'est laisser seuls ceux qui y sont encore."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« D'abord, sois fier du chemin : on ne tourne pas la page d'une traversée pareille, on la signe. Ton histoire t'appartient : tu ne dois rien à personne, ni le récit, ni le silence. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Mais sache ceci : une parole de sorti de tunnel vaut mille conseils de bien-portant. Si un jour quelqu'un devant toi est dans le noir que tu connais, ta phrase “j'y suis passé” peut lui sauver des mois. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Alors n'en fais pas une bannière, fais-en une réserve : disponible pour la bonne personne, au bon moment. Et remercie Dieu pour la sortie du tunnel : la gratitude consolide la guérison. »"
+    },
+    {
+      "type": "punch",
+      "text": "Une parole de sorti du tunnel vaut mille conseils de bien-portant."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
