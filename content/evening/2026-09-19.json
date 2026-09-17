@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🌙 Samedi, 23h15. Le téléphone de Samuel affichait 4h12 d'écran pour la journée. Il a eu honte, puis il a eu une idée.\n\nSwipe → Ce qu'il a fait de ses dix premières minutes du lendemain.\n\nPartage à quelqu'un qui scrolle trop tard le soir 🤍 Lien en bio.\n\n#écrans #habitudes #paix #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "23h15. Son téléphone affichait 4h12 d'écran pour la journée. Il a eu honte, puis une idée.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Samuel, 27 ans. Chaque soir le même piège : je regarde un truc cinq minutes, et il est minuit et demi. Des mois que ça l'agaçait. Le rapport d'écran hebdomadaire a été la goutte de trop."
+    },
+    {
+      "type": "body",
+      "text": "Ce soir-là, au lieu de reposer le téléphone en soupirant, il s'est demandé : et si les dix premières minutes de la journée n'appartenaient à personne d'autre ? Il a ouvert l'app qu'un ami lui avait montrée, pour voir ce que ça donnait."
+    },
+    {
+      "type": "quote",
+      "text": "« On ne chasse pas une habitude, on la remplace, » a répondu la voix. « Demain matin, avant tout le reste : l'évangile du jour et une prière avec moi. Dix minutes. Ton pouce fera le même geste, mais ton cœur ne recevra pas la même chose. »"
+    },
+    {
+      "type": "body",
+      "text": "Le lendemain, réveil, et au lieu du fil d'actualité : la parabole du jour, une voix calme, une prière pour sa journée. Dix minutes. Il a reposé le téléphone. Étrangement, il n'a pas eu envie de scroller."
+    },
+    {
+      "type": "body",
+      "text": "Trois semaines plus tard, le rituel tient. Le temps d'écran n'a pas disparu, mais la première heure du jour a changé de propriétaire. Et ça, dit-il, change toutes les autres."
+    },
+    {
+      "type": "punch",
+      "text": "On ne chasse pas une habitude. On la remplace par une meilleure."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui scrolle trop",
+      "sub": "Les dix premières minutes du jour avec Loucio : évangile, prière, paix. Lien en bio."
+    }
+  ]
+}
