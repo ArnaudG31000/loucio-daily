@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Mon frère revient à la foi après des années de n'importe quoi, et tout le monde s'émerveille. Moi qui suis resté fidèle, ça m'agace. Suis-je horrible ? » : question reçue dimanche dernier.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#famille #foi #jalousie #catholique #prière",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Mon frère revient à la foi après des années de n'importe quoi, et tout le monde s'émerveille. Moi qui suis resté, ça m'agace. »",
+      "sub": "Question reçue dimanche dernier.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Lui n'a jamais quitté : la messe, les services rendus, la fidélité discrète. Son frère revient après quinze ans, et c'est la fête, les larmes de leur mère, les récits émerveillés. Et lui se surprend à penser : et moi, alors ?"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Non, tu n'es pas horrible : tu es le frère aîné de la parabole, et Jésus l'a raconté exprès pour toi. Même ton agacement est dans l'Évangile. C'est dire s'il est humain. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Mais écoute ce que le père dit à l'aîné : toi, tu es toujours avec moi, et tout ce qui est à moi est à toi. La fête pour ton frère ne t'enlève rien. Quinze ans de fidélité, ce n'est pas un dû ignoré : c'est quinze ans de présence. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et si tu veux guérir l'agacement, entre dans la fête : sois celui qui accueille son frère sans lui faire payer le retour. C'est le plus beau rôle de l'histoire, et il est encore libre. »"
+    },
+    {
+      "type": "punch",
+      "text": "La fête pour celui qui revient n'enlève rien à celui qui est resté."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
