@@ -1,1 +1,1 @@
-2026-09-19T15:55Z — maintenance routine 17h35 : matin 19/09 publié OK, soir 18/09 OK, stock rédigé jusqu au lundi 21/09 (fête de saint Matthieu Mt 9,9-13 + récit Karine quitte son bureau, cohérents), liturgie 21/09 via workflow_dispatch. RAS.
+2026-09-20T15:55Z — maintenance routine 17h35 : matin 20/09 publié OK, soir 19/09 OK, stock rédigé jusqu au 22/09 (Lc 8,19-21 la famille élargie + reponse famille non croyante, cohérents), liturgie 22/09 via workflow_dispatch. RAS.

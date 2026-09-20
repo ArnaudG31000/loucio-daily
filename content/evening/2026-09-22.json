@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Je viens d'une famille où personne n'a jamais cru. Est-ce que la foi, c'est pour moi aussi ? » : question reçue jeudi.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#foi #famille #chercheurs #catholique #prière",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Je viens d'une famille où personne n'a jamais cru. Est-ce que la foi, c'est pour moi aussi ? »",
+      "sub": "Question reçue jeudi.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Pas de baptême, pas de grand-mère au chapelet, pas de Noël à la messe. Juste une curiosité qui grandit depuis quelques mois, et cette impression tenace d'arriver dans une maison dont tout le monde a les codes sauf elle."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« La foi n'est pas un héritage familial, c'est une rencontre personnelle. Les premiers chrétiens venaient tous de familles qui n'avaient jamais cru. Tu n'arrives pas en retard : tu arrives comme tout le monde est arrivé un jour. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Jésus l'a dit lui-même : sa famille, ce sont ceux qui écoutent la Parole et la mettent en pratique. Aucune condition d'origine. Ta curiosité qui grandit, c'est déjà une écoute qui commence. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Avance à ton rythme, sans complexe : un évangile par jour, tes questions posées sans filtre. Les codes s'apprennent vite. Et tu verras : dans cette maison, les nouveaux venus sont les préférés. »"
+    },
+    {
+      "type": "punch",
+      "text": "La foi ne s'hérite pas. Elle se rencontre. Et tu arrives juste à l'heure."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
