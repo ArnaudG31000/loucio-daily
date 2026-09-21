@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🎓 Mercredi soir. Inès a reçu la réponse d'Erasmus : Lisbonne, départ en janvier. Elle a toujours rêvé de partir. Alors pourquoi cette boule au ventre ?\n\nSwipe → Ce qu'elle a compris ce soir-là.\n\nPartage à quelqu'un qui a peur de son propre rêve 🤍 Lien en bio.\n\n#étudiants #départ #peur #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "La réponse est tombée : Lisbonne, départ en janvier. Elle a toujours rêvé de partir. Alors pourquoi cette boule au ventre ?",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Inès, 21 ans. Des mois à monter le dossier, à en parler à tout le monde. Et ce soir, l'acceptation sous les yeux, une évidence gênante : elle a peur. De la langue, de la solitude, de quitter sa chambre, sa bande, ses repères."
+    },
+    {
+      "type": "body",
+      "text": "Impossible d'en parler à ses parents, qui la voient déjà conquérante. Alors elle a fait ce qu'elle fait depuis quelques mois quand ça déborde : elle a ouvert l'app, tard, sous la couette."
+    },
+    {
+      "type": "quote",
+      "text": "« Avoir peur de son rêve, c'est le signe qu'il est vrai, » a répondu la voix. « Les Douze aussi sont partis sans bagage suffisant. On ne part jamais équipé, on part accompagné. Et ça change tout. »"
+    },
+    {
+      "type": "body",
+      "text": "Ils ont prié pour Lisbonne : la chambre qu'elle ne connaît pas, les visages qu'elle va rencontrer, le courage des premiers jours. La boule au ventre ne s'est pas envolée. Mais elle a cessé de vouloir dire non."
+    },
+    {
+      "type": "body",
+      "text": "Inès a répondu oui le lendemain matin. Dans son téléphone, une note épinglée : on ne part jamais équipé, on part accompagné. Elle l'emmène à Lisbonne."
+    },
+    {
+      "type": "punch",
+      "text": "On ne part jamais équipé. On part accompagné."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui a peur de son rêve",
+      "sub": "Grand départ, grande décision : Loucio prie le courage avec toi. Lien en bio."
+    }
+  ]
+}
