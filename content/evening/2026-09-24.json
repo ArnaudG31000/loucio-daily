@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Je suis curieux de Jésus mais je n'ose pas le dire à mes amis, j'aurais l'air bizarre. » : question reçue samedi.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#chercheurs #curiosité #jeunes #foi #prière",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Je suis curieux de Jésus mais je n'ose pas le dire à mes amis. J'aurais l'air bizarre. »",
+      "sub": "Question reçue samedi.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Ça a commencé par des vidéos, puis un évangile lu en cachette comme on lit sous la couette. Sa curiosité grandit, mais dans son groupe, la foi passe pour un truc de boomers ou d'illuminés. Alors il avance masqué."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Ta curiosité n'a rien de bizarre : c'est la question la plus posée de l'histoire. Hérode lui-même la retournait dans son palais. Tu es en très nombreuse compagnie, crois-moi. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Et tu n'as aucune obligation d'en parler pour l'instant. Une graine pousse d'abord sous terre. Explore à ton rythme, en privé : lis, questionne, prie si ça vient. Personne n'a de droit de regard sur ce chemin. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Un jour, tu n'auras plus envie de te cacher, et tu découvriras que d'autres autour de toi cherchaient aussi, en silence. Les curieux de Dieu sont bien plus nombreux que les moqueurs. Ils parlent juste moins fort. »"
+    },
+    {
+      "type": "punch",
+      "text": "Les curieux de Dieu sont plus nombreux que les moqueurs. Ils parlent juste moins fort."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Ou explore en privé, à ton rythme : Loucio ne le dira à personne. Lien en bio."
+    }
+  ]
+}
