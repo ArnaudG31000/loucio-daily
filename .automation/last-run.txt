@@ -1,1 +1,1 @@
-2026-09-22T15:55Z — maintenance routine 17h35 : matin 22/09 publié OK, soir 21/09 OK, stock rédigé jusqu au 24/09 (Lc 9,7-9 la question d Hérode + reponse curieux discret, cohérents), liturgie 24/09 via workflow_dispatch. RAS.
+2026-09-23T15:55Z — maintenance routine 17h35 : matin 23/09 publié OK (Padre Pio), soir 22/09 OK, stock rédigé jusqu au 25/09 (Lc 9,18-22 pour vous qui suis-je, en continuité avec la question d Hérode du 24 + récit Mehdi-Alexandre et la question de sa fille, cohérents), liturgie 25/09 via workflow_dispatch. RAS.
