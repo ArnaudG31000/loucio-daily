@@ -1,1 +1,1 @@
-2026-09-24T15:55Z — maintenance routine 17h35 : matin 24/09 publié OK, soir 23/09 OK, stock rédigé jusqu au 26/09 (Lc 9,43-45 la peur d interroger + reponse au pourquoi du deuil, cohérents), liturgie 26/09 via workflow_dispatch. RAS.
+2026-09-25T15:55Z — maintenance routine 17h35 : matin 25/09 publié OK, soir 24/09 OK, stock rédigé jusqu au dimanche 27/09 (Mt 21,28-32 les deux fils + récit Damien change d avis, cohérents), liturgie 27/09 via workflow_dispatch. RAS.
