@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Sur LinkedIn, tout le monde réussit sauf moi. Je sais que c'est faux, mais ça me ronge quand même. » : question reçue mercredi.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#comparaison #réseauxsociaux #travail #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Sur LinkedIn, tout le monde réussit sauf moi. Je sais que c'est faux, mais ça me ronge quand même. »",
+      "sub": "Question reçue mercredi.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Promotions, levées de fonds, reconversions inspirantes : chaque pause café devient une revue de presse des victoires des autres. Il sait que c'est une vitrine. Mais chaque scroll laisse le même goût : et moi, je fais quoi de ma vie ?"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Tu compares ton intérieur à la vitrine des autres. Personne ne poste ses doutes, ses lundis gris, ses échecs. Tu joues à un jeu dont les règles sont truquées, et tu perds contre des personnages, pas contre des personnes. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Les disciples eux-mêmes se disputaient pour savoir qui était le plus grand. Jésus a posé un enfant au milieu : quelqu'un qui ne produit rien et qui vaut tout. Ta valeur est donnée, pas gagnée. Aucun post ne peut te l'ajouter ni te l'enlever. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Essaie ceci une semaine : remplace le scroll de la pause café par deux minutes de merci. Trois choses de TA vraie vie, pas de leur vitrine. La gratitude est le seul fil d'actualité qui rende heureux. »"
+    },
+    {
+      "type": "punch",
+      "text": "Tu compares ton intérieur à la vitrine des autres. Le jeu est truqué."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
