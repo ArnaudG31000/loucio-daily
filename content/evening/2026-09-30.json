@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Ça fait deux ans que je me dis que je prierai quand ma vie sera plus calme. Elle ne se calme jamais. » : question reçue lundi.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#prière #procrastination #vieactive #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Ça fait deux ans que je me dis que je prierai quand ma vie sera plus calme. Elle ne se calme jamais. »",
+      "sub": "Question reçue lundi.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Deux enfants, un travail prenant, des journées qui débordent. La prière est sur sa liste depuis deux ans, quelque part entre le sport et le tri des photos. Chaque dimanche soir, la même promesse : la semaine prochaine, je m'y mets."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Ta vie ne se calmera pas : ce n'est pas une mauvaise nouvelle, c'est une libération. Tu peux arrêter d'attendre le calme et commencer dans le bruit. Les mères de famille qui prient le font entre deux portes, pas dans un monastère. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Vise ridiculement petit : pas trente minutes, deux. Un merci en attachant ta ceinture le matin, un Notre Père sous la douche. La prière qui existe vaut infiniment mieux que la prière idéale qui attend. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et accroche-la à une habitude qui existe déjà : le café, le trajet, la lumière qu'on éteint. Pas besoin de créneau nouveau dans ta vie pleine. Il y a de la place pour Dieu dans ce que tu fais déjà. »"
+    },
+    {
+      "type": "punch",
+      "text": "N'attends pas le calme. La prière qui existe vaut mieux que la prière idéale qui attend."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Deux minutes avec Loucio, accrochées à ton café du matin : essaie demain. Lien en bio."
+    }
+  ]
+}
