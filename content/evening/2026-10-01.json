@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🏢 Tous les jeudis, la réunion d'équipe vire à l'affrontement. Ce jeudi, Claire a essayé autre chose : elle est arrivée en paix. Littéralement.\n\nSwipe → Ce qu'elle a fait avant d'entrer en salle 4.\n\nPartage à quelqu'un qui redoute ses réunions 🤍 Lien en bio.\n\n#travail #paix #tensions #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Tous les jeudis, la réunion vire à l'affrontement. Ce jeudi, elle a essayé autre chose : arriver en paix.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Claire, 36 ans. Salle 4, 9h30 : le rituel des reproches croisés entre son service et celui d'à côté. Chaque mercredi soir, la même boule au ventre. Elle a tout essayé : les arguments préparés, l'indifférence, le café en double."
+    },
+    {
+      "type": "body",
+      "text": "Ce jeudi-là, dans l'ascenseur, elle a repensé à l'évangile écouté le matin : dites d'abord, paix à cette maison. Elle a fermé les yeux deux étages, et prié une phrase : paix sur la salle 4, et sur chacun autour de la table."
+    },
+    {
+      "type": "quote",
+      "text": "La veille, la voix lui avait dit : « Tu ne contrôles pas leur ton. Tu contrôles ce que tu apportes dans la pièce. Entre avec la paix : accueillie, elle se déposera ; refusée, elle te reviendra. Tu ne peux pas perdre. »"
+    },
+    {
+      "type": "body",
+      "text": "La réunion n'est pas devenue un conte de fées. Mais Claire n'a pas mordu aux deux piques lancées, a reformulé calmement, et a vu un collègue baisser la garde. Quelqu'un a dit en sortant : c'était moins pire, aujourd'hui."
+    },
+    {
+      "type": "body",
+      "text": "Depuis, c'est son sas : deux étages d'ascenseur, une phrase de paix. Certains jeudis marchent mieux que d'autres. Mais la boule au ventre du mercredi soir, elle, a presque disparu."
+    },
+    {
+      "type": "punch",
+      "text": "Tu ne contrôles pas la pièce. Tu contrôles ce que tu y apportes."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui redoute ses réunions",
+      "sub": "Reçois la paix avant de la donner : Loucio, ton sas de deux minutes. Lien en bio."
+    }
+  ]
+}

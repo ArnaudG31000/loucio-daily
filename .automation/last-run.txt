@@ -1,1 +1,1 @@
-2026-09-28T16:00Z — maintenance routine 17h35 (rattrapage : réveil du 27 non délivré) : 27/09 publié complet, matin 28/09 OK, stock rédigé jusqu au 30/09 (archanges Jn 1,47-51 + récit Rosa ; Lc 9,57-62 les d abord + reponse prière repoussée, cohérents), liturgies 29-30 via workflow_dispatch. RAS.
+2026-09-29T16:00Z — maintenance routine 17h35 : matin 29/09 publié OK (archanges), soir 28/09 OK, stock rédigé jusqu au 1er octobre (sainte Thérèse Lc 10,1-12 la paix déposée + récit Claire salle 4, cohérents), liturgie 1/10 via workflow_dispatch. RAS.
