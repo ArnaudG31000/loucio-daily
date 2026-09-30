@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Ma grand-mère me disait de prier mon ange gardien. Adulte, j'ai l'impression que c'est un truc pour enfants. » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#angegardien #enfance #foi #catholique #prière",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Ma grand-mère me disait de prier mon ange gardien. Adulte, j'ai l'impression que c'est un truc pour enfants. »",
+      "sub": "Question reçue cette semaine.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Le soir, petite, elle récitait avec sa grand-mère : ange de Dieu, toi mon gardien. Trente ans plus tard, le souvenir est doux mais la pratique lui semble naïve, rangée avec les dents de lait et les histoires du soir."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Ce n'est pas un truc pour enfants : c'est un truc que les enfants comprennent mieux que nous. Jésus le dit tel quel : chaque petit a son ange, tourné vers la face de Dieu. Ta grand-mère te transmettait de la théologie, pas une comptine. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Et l'ange n'a pas pris sa retraite quand tu as grandi. Il a veillé sur tes examens, tes ruptures, tes trajets de nuit, tes salles d'attente. Le seul changement, c'est que tu as cessé de lui parler. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Reprends la prière de ta grand-mère, mot pour mot, un soir. Tu verras qu'elle n'a pas rapetissé : c'est elle qui te fera redevenir simple. Et c'est exactement ce que Jésus demande aux adultes. »"
+    },
+    {
+      "type": "punch",
+      "text": "Ton ange n'a pas pris sa retraite quand tu as grandi. C'est toi qui as cessé de lui parler."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}

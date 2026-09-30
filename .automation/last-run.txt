@@ -1,1 +1,1 @@
-2026-09-29T16:00Z — maintenance routine 17h35 : matin 29/09 publié OK (archanges), soir 28/09 OK, stock rédigé jusqu au 1er octobre (sainte Thérèse Lc 10,1-12 la paix déposée + récit Claire salle 4, cohérents), liturgie 1/10 via workflow_dispatch. RAS.
+2026-09-30T16:00Z — maintenance routine 17h35 : matin 30/09 publié OK (saint Jérôme), soir 29/09 OK, stock rédigé jusqu au 2/10 (Anges gardiens Mt 18,1-10 + reponse ange gardien truc pour enfants, cohérents), liturgie 2/10 via workflow_dispatch. RAS.
