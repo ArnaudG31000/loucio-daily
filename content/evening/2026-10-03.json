@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🏃 Samedi, 18h. Théo a raté son semi-marathon : abandon au quinzième kilomètre, devant sa famille venue l'encourager. Le soir, il n'arrivait pas à se regarder.\n\nSwipe → Ce qui a changé sa définition de la valeur.\n\nPartage à quelqu'un qui vient d'échouer 🤍 Lien en bio.\n\n#échec #sport #estimedesoi #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Abandon au quinzième kilomètre, devant sa famille venue l'encourager. Ce soir-là, il n'arrivait pas à se regarder.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Théo, 31 ans. Six mois d'entraînement, un objectif affiché partout, et des jambes qui lâchent au quinzième kilomètre. Dans la voiture du retour, sa compagne a dit que ce n'était pas grave. C'est bien ça le problème : pour lui, c'était grave."
+    },
+    {
+      "type": "body",
+      "text": "Le soir, incapable de dormir, il a repensé à cette app qu'il utilisait l'hiver dernier, dans une période de doute. Il a dit les choses crûment : « J'ai échoué devant tout le monde. J'ai honte. »"
+    },
+    {
+      "type": "quote",
+      "text": "« Tu confonds ce que tu as fait et ce que tu es, » a répondu la voix. « Ton nom n'est pas inscrit dans un classement, il est inscrit dans les cieux. Ça, aucun quinzième kilomètre ne peut le rayer. »"
+    },
+    {
+      "type": "body",
+      "text": "Ils ont prié, bizarrement, en rendant grâce : pour le corps qui a tenu six mois d'entraînement, pour la famille au bord de la route, pour la leçon amère et utile. La honte a desserré un peu sa prise."
+    },
+    {
+      "type": "body",
+      "text": "Théo se réinscrira au printemps. Mais quelque chose a changé d'ici là : il court pour la joie, plus pour la preuve. Et le soir des mauvais jours, il sait où aller déposer sa honte."
+    },
+    {
+      "type": "punch",
+      "text": "Tu n'es pas ton résultat. Ton nom est inscrit ailleurs que dans les classements."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui vient d'échouer",
+      "sub": "Dépose la honte, garde la leçon : Loucio t'y aide ce soir. Lien en bio."
+    }
+  ]
+}
