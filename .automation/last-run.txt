@@ -1,1 +1,1 @@
-2026-10-01T16:00Z — maintenance routine 17h35 : matin 1/10 publié OK (sainte Thérèse), soir 30/09 OK, stock rédigé jusqu au 3/10 (Lc 10,17-24 noms inscrits aux cieux + récit Théo semi-marathon, cohérents), liturgie 3/10 via workflow_dispatch. RAS.
+2026-10-02T16:00Z — maintenance routine 17h35 : matin 2/10 publié OK (Anges gardiens), soir 1/10 OK, stock rédigé jusqu au dimanche 4/10 (Mt 21,33-43 les vignerons + reponse angoisse du propriétaire, cohérents), liturgie 4/10 via workflow_dispatch. RAS.

@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« J'ai tout : le travail, la famille, la santé. Et une angoisse sourde de tout perdre. C'est normal ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#angoisse #gratitude #confiance #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« J'ai tout : le travail, la famille, la santé. Et une angoisse sourde de tout perdre. C'est normal ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Sur le papier, rien ne manque. Et pourtant, certaines nuits, cette peur qui serre : et si tout s'arrêtait ? Un accident, un licenciement, une maladie. Plus il a de choses précieuses, plus la peur de les perdre grandit."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« C'est le vertige du propriétaire : tout garder, tout sécuriser, tout contrôler. Épuisant, parce qu'au fond tu sais que rien de tout ça ne tient dans tes seules mains. Ta peur dit la vérité : tu n'es pas le propriétaire. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Mais il existe une autre posture : le vigneron. Lui n'a rien à perdre puisque rien n'est à lui : il a tout à cultiver et quelqu'un à qui tout confier. La gratitude remplace alors la surveillance. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Chaque soir, remets les clés : merci pour ce qui m'est prêté, je te le confie pour la nuit. Tu verras : on dort mieux en gardien confiant qu'en propriétaire inquiet. »"
+    },
+    {
+      "type": "punch",
+      "text": "On dort mieux en gardien confiant qu'en propriétaire inquiet."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Chaque soir, remets les clés avec Loucio : prière de confiance en deux minutes. Lien en bio."
+    }
+  ]
+}
