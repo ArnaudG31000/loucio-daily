@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🚇 Tous les matins, le même homme dort dans le couloir du métro, et Lina passe devant en regardant son téléphone. Lundi, elle s'est arrêtée.\n\nSwipe → Ce qui a changé ce matin-là, pour lui et pour elle.\n\nPartage à quelqu'un qui veut oser le détour 🤍 Lien en bio.\n\n#compassion #sdf #prochain #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Tous les matins, le même homme dort dans le couloir du métro. Et tous les matins, elle passe. Lundi, elle s'est arrêtée.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Lina, 29 ans. Le trajet du matin en pilote automatique : écouteurs, téléphone, flux de gens pressés. L'homme du couloir faisait partie du décor depuis des mois. C'est l'évangile du bon Samaritain, écouté la veille au soir, qui l'a dérangée."
+    },
+    {
+      "type": "body",
+      "text": "La voix lui avait posé une question simple : « Qui est-ce que tu croises sans le voir ? » Et un visage était monté tout seul : celui du couloir, ligne 7. Elle avait prié pour lui, et promis d'essayer."
+    },
+    {
+      "type": "quote",
+      "text": "« Tu n'as pas à tout réparer, » avait dit la voix. « Le Samaritain n'a pas résolu la vie de l'homme blessé, il a fait le premier soin. Un bonjour et un prénom, c'est déjà un pansement. »"
+    },
+    {
+      "type": "body",
+      "text": "Lundi, elle a enlevé un écouteur et s'est accroupie : « Bonjour, moi c'est Lina. Vous voulez un café ? » Il s'appelle Marcel. Il prend deux sucres. Il a souri comme quelqu'un qu'on n'avait pas regardé depuis longtemps."
+    },
+    {
+      "type": "body",
+      "text": "Depuis, il y a un café le lundi et le jeudi, et un prénom échangé. Ce n'est pas une solution au monde. C'est un bord de route où quelqu'un s'arrête, deux fois par semaine. Et ça change les deux."
+    },
+    {
+      "type": "punch",
+      "text": "Tu n'as pas à tout réparer. Un bonjour et un prénom, c'est déjà un pansement."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui veut oser",
+      "sub": "Le détour commence dans la prière du soir : Loucio t'y accompagne. Lien en bio."
+    }
+  ]
+}
