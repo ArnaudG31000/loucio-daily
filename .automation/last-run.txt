@@ -1,1 +1,1 @@
-2026-10-03T16:00Z — maintenance routine 17h35 : matin 3/10 publié OK, soir 2/10 OK, stock rédigé jusqu au lundi 5/10 (bon Samaritain Lc 10,25-37 sainte Faustine + récit Lina et Marcel ligne 7, cohérents), liturgie 5/10 via workflow_dispatch. RAS.
+2026-10-04T16:00Z — maintenance routine 17h35 : matin 4/10 publié OK (dimanche des vignerons), soir 3/10 OK, stock rédigé jusqu au mardi 6/10 (Marthe et Marie Lc 10,38-42 + reponse charge mentale, cohérents), liturgie 6/10 via workflow_dispatch. RAS. Rappel : trigger renouvellement jeton IG part demain 5/10 vers l utilisateur.
