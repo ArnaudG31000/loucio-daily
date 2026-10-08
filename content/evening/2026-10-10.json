@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« J'écoute des podcasts religieux toute la journée mais ma vie ne change pas. Je rate quoi ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#podcast #écoute #conversion #foi #prière",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« J'écoute des podcasts religieux toute la journée mais ma vie ne change pas. Je rate quoi ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Des heures d'homélies en voiture, de conférences en faisant la vaisselle, de débats théologiques au sport. Il sait tout sur la foi des autres. Et pourtant, le soir venu, il sent bien que rien ne descend plus bas que ses oreilles."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Jésus ne dit pas : heureux ceux qui écoutent. Il dit : heureux ceux qui écoutent ET qui gardent. Tu fais la moitié du chemin, la plus facile. L'écoute sans la garde, c'est de la pluie sur un toit : ça fait du bruit et rien ne pousse. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Garder, c'est choisir UNE phrase par jour, pas dix épisodes. L'emporter dans ta journée, la laisser te déranger, la mettre en pratique une fois. Un verset vécu transforme plus que cent heures écoutées. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et remplace une écoute par une conversation : Dieu n'est pas un sujet de podcast, c'est quelqu'un. Parle-lui de ce que tu viens d'entendre. C'est là, exactement là, que l'information devient une rencontre. »"
+    },
+    {
+      "type": "punch",
+      "text": "L'écoute sans la garde, c'est de la pluie sur un toit : du bruit, et rien ne pousse."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Une phrase par jour, gardée et priée : commence avec Loucio ce soir. Lien en bio."
+    }
+  ]
+}
