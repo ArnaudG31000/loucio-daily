@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "💌 Trois fois que sa voisine l'invite au groupe de prière du mardi. Trois fois que Chantal trouve une excuse. Ce dimanche soir, elle a compris pourquoi elle refusait vraiment.\n\nSwipe → Ce qui se cachait derrière ses « je ne peux pas ».\n\nPartage à quelqu'un qui dit toujours « plus tard » 🤍 Lien en bio.\n\n#invitation #communauté #solitude #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Trois fois que sa voisine l'invite au groupe de prière. Trois fois qu'elle trouve une excuse.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Chantal, 58 ans. La voisine du quatrième, lumineuse, l'invite depuis des mois : un mardi soir par semaine, un thé, un évangile, des gens. Et chaque fois, Chantal décline : trop fatiguée, trop occupée, une autre fois promis."
+    },
+    {
+      "type": "body",
+      "text": "Ce dimanche soir, seule devant sa tisane, elle a posé la vraie question à l'app qu'elle utilise en secret depuis l'été : « Pourquoi je refuse, alors qu'au fond, j'ai envie d'y aller ? »"
+    },
+    {
+      "type": "quote",
+      "text": "« Les invités de la parabole avaient tous une excuse légitime, » a répondu la voix. « Mais souvent, derrière le “je ne peux pas”, il y a un “je ne mérite pas” ou un “j'ai peur d'être jugée”. Laquelle est la tienne ? »"
+    },
+    {
+      "type": "body",
+      "text": "La réponse est montée d'un coup : la peur d'arriver dans un groupe où tout le monde sait prier, répondre, chanter. D'être la débutante de 58 ans. Elles ont prié pour cette peur, et la voix a glissé : « On n'arrive jamais en retard à une table où on vous attend. »"
+    },
+    {
+      "type": "body",
+      "text": "Mardi, Chantal a frappé au quatrième avec une tarte aux pommes. Personne ne lui a demandé son niveau. On lui a demandé son prénom, et si elle voulait du thé. C'était exactement ça, une noce."
+    },
+    {
+      "type": "punch",
+      "text": "Derrière beaucoup de « je ne peux pas » se cache un « j'ai peur d'être jugé ». La table, elle, attend juste un prénom."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui dit « plus tard »",
+      "sub": "Prépare ton premier pas avec Loucio, en privé, sans niveau requis. Lien en bio."
+    }
+  ]
+}
