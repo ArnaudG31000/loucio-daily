@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« J'ai demandé un signe à Dieu avant de m'engager. Il ne s'est rien passé. J'arrête tout ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#signe #discernement #engagement #foi #prière",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« J'ai demandé un signe à Dieu avant de m'engager. Il ne s'est rien passé. J'arrête tout ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 52
+    },
+    {
+      "type": "body",
+      "text": "Avant de dire oui à un engagement dans sa paroisse, il a demandé un signe clair : si Dieu veut que j'y aille, qu'il me le montre. Une semaine d'attente, rien. Ni rêve, ni coïncidence, ni verset tombé juste. Il en conclut que la réponse est non."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Attention au marché que tu as passé : tu as fixé toi-même la monnaie de la réponse. Dieu parle, mais rarement dans la devise qu'on lui impose. Le silence d'une semaine n'est pas un non, c'est peut-être un autre langage. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Regarde les signes ordinaires plutôt que le prodige attendu : l'idée qui revient sans cesse, la paix quand tu t'imagines le faire, les personnes qui t'en ont parlé sans se concerter. Le discernement lit ces lignes-là. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et parfois, le signe vient APRÈS le premier pas, pas avant : la mer s'est ouverte quand ils ont marché. Essaie un mois, humblement. Tu sauras vite si la vie y circule. C'est le signe le plus fiable qui soit. »"
+    },
+    {
+      "type": "punch",
+      "text": "Le signe vient souvent après le premier pas, pas avant. La mer s'ouvre en marchant."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Discerne avec Loucio : les signes ordinaires, lus ensemble. Lien en bio."
+    }
+  ]
+}
