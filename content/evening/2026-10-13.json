@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "💶 Au distributeur, l'écran affichait un solde confortable. Et Victor, 42 ans, s'est senti bizarrement pauvre. Mardi soir, il a compris pourquoi.\n\nSwipe → L'histoire de l'homme qui gagnait bien et donnait rien.\n\nPartage à quelqu'un qui veut desserrer la main 🤍 Lien en bio.\n\n#générosité #argent #sens #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Au distributeur, le solde était confortable. Et il s'est senti bizarrement pauvre.",
+      "size": 54
+    },
+    {
+      "type": "body",
+      "text": "Victor, 42 ans. Bon salaire, épargne solide, tableurs à jour. Et cette sensation étrange, de plus en plus fréquente : tout garder, tout optimiser, et se sentir rétréci. Comme si le compte grossissait et que lui rapetissait."
+    },
+    {
+      "type": "body",
+      "text": "Ce soir-là, il a écouté l'évangile du jour sur l'app : donnez, et tout sera pur pour vous. Ça l'a piqué. Il a demandé, un peu sur la défensive : « C'est mal, d'être prévoyant ? »"
+    },
+    {
+      "type": "quote",
+      "text": "« Prévoyant, non. Verrouillé, oui, » a répondu la voix. « L'argent est un excellent serviteur et un très mauvais maître. Question simple : quand as-tu donné pour la dernière fois quelque chose qui te coûte ? »"
+    },
+    {
+      "type": "body",
+      "text": "Le silence a répondu pour lui. Alors ils ont cherché ensemble un premier geste : un virement mensuel à une association de son quartier, assez gros pour se sentir, assez raisonnable pour durer. Validé le soir même, avant que le tableur proteste."
+    },
+    {
+      "type": "body",
+      "text": "Trois mois plus tard, le virement part chaque mois, et Victor dit cette chose étrange : c'est la seule ligne de son budget qui le rend heureux. La sensation de rétrécir a disparu. Desserrer la main a tout désserré."
+    },
+    {
+      "type": "punch",
+      "text": "Ce qu'on garde nous tient. Ce qu'on donne nous libère."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui veut desserrer la main",
+      "sub": "Trouve ton premier geste avec Loucio, à ta mesure. Lien en bio."
+    }
+  ]
+}
