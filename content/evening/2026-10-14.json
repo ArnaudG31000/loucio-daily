@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Je coche tout : messe, chapelet, jeûne du vendredi. Et ma femme dit que je suis devenu dur. Qui a raison ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#pratique #amour #couple #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Je coche tout : messe, chapelet, jeûne du vendredi. Et ma femme dit que je suis devenu dur. Qui a raison ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Revenu à la foi il y a deux ans, il s'est construit une règle de vie exigeante et s'y tient avec fierté. Mais à la maison, le climat s'est tendu : impatiences, remarques sur la tiédeur des autres, soirées sacrifiées à ses dévotions."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Ta femme a peut-être mis le doigt sur ce que Jésus reprochait aux pharisiens : la dîme sur la menthe, et l'amour oublié. Tes pratiques sont bonnes. Mais si elles produisent de la dureté, quelque chose s'est inversé en route. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Le test est simple : la vraie prière rend plus doux avec les autres et plus exigeant avec soi. Si c'est l'inverse qui se produit, ce n'est plus Dieu qu'on rencontre dans la pratique, c'est sa propre performance. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Ne lâche pas ta règle : ajoute-lui une ligne, en premier. Chaque jour, un geste concret de tendresse à la maison, compté comme une dévotion. Ta femme est ton premier prochain. C'est là que ta foi se vérifie. »"
+    },
+    {
+      "type": "punch",
+      "text": "La vraie prière rend plus doux avec les autres et plus exigeant avec soi. Jamais l'inverse."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
