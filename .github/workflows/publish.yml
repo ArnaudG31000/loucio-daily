@@ -30,6 +30,11 @@ on:
     - cron: '3 21 * * *'
     - cron: '23 21 * * *'
     - cron: '43 21 * * *'
+    # Rattrapage de nuit (0h33-1h33 Paris) : si tous les crons du soir ont été
+    # retardés hors fenêtre, ceux-ci publient le soir de la veille (publish.py)
+    - cron: '33 22 * * *'
+    - cron: '3 23 * * *'
+    - cron: '33 23 * * *'
   push:
     paths:
       - 'trigger/**'

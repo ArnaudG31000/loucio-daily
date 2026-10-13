@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Publication automatique des carrousels Loucio sur Instagram (GitHub Actions)."""
 import argparse, json, os, subprocess, sys, time
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import requests
 
@@ -133,12 +133,20 @@ def main():
 
     slot = args.slot.strip()
     if slot == "auto":
-        # GitHub exécute les crons avec des heures de retard : le matin est
-        # rattrapable jusqu'à 18h59 s'il n'a pas encore été publié.
+        # GitHub exécute les crons avec des heures de retard (jusqu'à 6 h
+        # constatées) : le matin est rattrapable jusqu'à 18h59, et le soir
+        # jusqu'à 1h59 du matin (publication datée de la veille).
         if 5 <= now.hour <= 18 and not day.get("matin"):
             slot = "matin"
         elif 19 <= now.hour <= 23 and not day.get("soir"):
             slot = "soir"
+        elif now.hour <= 1:
+            yday = f"{now - timedelta(days=1):%Y-%m-%d}"
+            if not state.get(yday, {}).get("soir"):
+                slot, date, day = "soir", yday, state.get(yday, {})
+            else:
+                log(f"hors créneau ou déjà publié ({now:%H:%M} Paris), rien à faire")
+                return
         else:
             log(f"hors créneau ou déjà publié ({now:%H:%M} Paris), rien à faire")
             return
