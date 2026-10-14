@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Je prie, je vais à la messe, mais il y a une partie de ma vie dont je ne parle jamais, même à Dieu. J'ai trop honte. Est-ce que ça sert à quelque chose de prier en cachant ça ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#honte #prière #miséricorde #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Il y a une partie de ma vie dont je ne parle jamais, même à Dieu. J'ai trop honte. Est-ce que ça sert à quelque chose de prier en cachant ça ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Elle prie fidèlement, va à la messe, accompagne même un groupe de jeunes. Mais depuis des années, un pan entier de son histoire reste verrouillé : elle n'en a parlé à personne, et dans la prière elle le contourne soigneusement, comme on évite une pièce de la maison."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« D'abord, une chose que tu sais déjà sans oser y croire : Dieu connaît cette pièce fermée. Tu ne la lui caches pas, tu te la caches à toi devant lui. Et il ne s'est pas enfui en la voyant. Il est resté. Il reste. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Ta prière n'est pas inutile, mais elle est fatigante : tu pries en tenant une porte fermée de tout ton poids. La honte te dit que cette porte protège ton secret. En vérité, elle te prive surtout du seul regard qui ne condamne pas. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Tu n'as pas à tout raconter d'un coup. Commence par une phrase, une seule : Seigneur, tu sais ce qu'il y a dans cette pièce, entre avec moi. C'est une prière complète. Et si un jour tu veux des mots humains, un prêtre sait accueillir ça sans trembler. »"
+    },
+    {
+      "type": "punch",
+      "text": "Dieu ne découvre jamais rien de toi. Il attend juste que tu arrêtes de prier contre ta propre porte."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
