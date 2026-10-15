@@ -1,1 +1,1 @@
-2026-10-14T15:40Z — maintenance routine : matin 14/10 publié OK, soir 13/10 OK (rattrapage de nuit validé), stock rédigé jusqu'au 16/10 (évangile Lc 12,1-7 Ste Edwige + réponse sauge), liturgie 16/10 récupérée via workflow_dispatch. RAS.
+2026-10-15T15:50Z — maintenance routine : matin 15/10 publié OK, soir 14/10 OK, stock rédigé jusqu'au 17/10 (évangile Lc 12,8-12 St Ignace d'Antioche + récit nuit), liturgie 17/10 récupérée via workflow_dispatch. RAS.
