@@ -1,1 +1,1 @@
-2026-10-15T15:50Z — maintenance routine : matin 15/10 publié OK, soir 14/10 OK, stock rédigé jusqu'au 17/10 (évangile Lc 12,8-12 St Ignace d'Antioche + récit nuit), liturgie 17/10 récupérée via workflow_dispatch. RAS.
+2026-10-16T15:55Z — maintenance routine : matin 16/10 publié OK, soir 15/10 OK, stock rédigé jusqu'au 18/10 (évangile Mt 22,15-21 29e dimanche TO + réponse sauge), liturgie 18/10 récupérée via workflow_dispatch. RAS.
