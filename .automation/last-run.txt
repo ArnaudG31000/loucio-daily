@@ -1,1 +1,1 @@
-2026-10-16T15:55Z — maintenance routine : matin 16/10 publié OK, soir 15/10 OK, stock rédigé jusqu'au 18/10 (évangile Mt 22,15-21 29e dimanche TO + réponse sauge), liturgie 18/10 récupérée via workflow_dispatch. RAS.
+2026-10-17T15:55Z — maintenance routine : matin 17/10 publié OK, soir 16/10 OK, stock rédigé jusqu'au 19/10 (évangile Lc 12,13-21 riche insensé + récit nuit), liturgie 19/10 récupérée via workflow_dispatch. RAS.
