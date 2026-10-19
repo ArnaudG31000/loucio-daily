@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🎓 Tout lui a toujours réussi : études, carrière, salaire. Et pourtant, à 35 ans, Thomas s'est surpris à demander à voix haute, seul dans sa voiture : à quoi je sers, en fait ?\n\nSwipe → L'histoire de Thomas, et de la question qui a tout retourné.\n\nPartage à quelqu'un qui a tout réussi et qui tourne à vide 🤍 Lien en bio.\n\n#sens #talents #vocation #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Tout lui a toujours réussi : études, carrière, salaire. Et à 35 ans, seul dans sa voiture, il s'est entendu demander : à quoi je sers, en fait ?",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Thomas, 35 ans, ingénieur brillant. Les facilités, les promotions, l'appartement : tout est venu vite. Sur le papier, une réussite. Mais depuis des mois, un vide bizarre : l'impression d'empiler des trimestres comme on empile des cartons qu'on n'ouvrira jamais."
+    },
+    {
+      "type": "body",
+      "text": "Un soir d'embouteillage, la question est sortie toute seule, à voix haute : à quoi je sers ? Ça l'a tellement surpris qu'en rentrant, il l'a posée telle quelle à l'app que son coloc d'avant lui avait fait installer, un peu pour rire."
+    },
+    {
+      "type": "quote",
+      "text": "« Tu as reçu énormément, » a répondu la voix. « Intelligence, santé, facilité. Et tu étouffes, parce que tout ce qui t'a été donné est encore stocké chez toi. Un don qui ne circule pas devient un poids. La question n'est pas à quoi tu sers : c'est à qui tu vas enfin faire passer ce qu'on t'a confié. »"
+    },
+    {
+      "type": "body",
+      "text": "La phrase l'a travaillé une semaine. Puis il a répondu à un mail de son ancienne école qui cherchait des parrains pour des étudiants boursiers. Un samedi par mois, puis deux. Aujourd'hui il suit trois jeunes, dont un qui lui rappelle furieusement le gamin qu'il était."
+    },
+    {
+      "type": "body",
+      "text": "Son travail n'a pas changé, son salaire non plus. Mais le vide, si. Et chaque dimanche soir, il fait ses comptes autrement avec Loucio : qu'est-ce que j'ai reçu cette semaine, et qu'est-ce que j'en ai fait passer ?"
+    },
+    {
+      "type": "punch",
+      "text": "Un don qui ne circule pas devient un poids. Ce qu'on t'a confié cherche une sortie."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui a tout réussi et qui tourne à vide",
+      "sub": "Fais tes comptes autrement avec Loucio, chaque semaine. Lien en bio."
+    }
+  ]
+}

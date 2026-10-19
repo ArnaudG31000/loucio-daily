@@ -1,1 +1,1 @@
-2026-10-17T15:55Z — maintenance routine : matin 17/10 publié OK, soir 16/10 OK, stock rédigé jusqu'au 19/10 (évangile Lc 12,13-21 riche insensé + récit nuit), liturgie 19/10 récupérée via workflow_dispatch. RAS.
+2026-10-19T15:55Z — maintenance routine (rattrapage 2 jours, session gelée le 18) : matin 19/10 publié OK, soirs 17 et 18/10 OK, token Instagram auto-rafraîchi, stock rédigé jusqu'au 21/10 (20/10 Lc 12,35-38 veille + réponse sauge ; 21/10 Lc 12,39-48 intendant + récit nuit), liturgie 21/10 via workflow_dispatch. RAS.

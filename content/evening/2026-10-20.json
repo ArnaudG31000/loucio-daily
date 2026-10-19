@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« J'ai la foi, mais je m'endors : messe par habitude, prières machinales, plus rien ne me touche. Comment on se réveille quand on est devenu tiède ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#tiédeur #prière #réveil #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« J'ai la foi, mais je m'endors : messe par habitude, prières machinales, plus rien ne me touche. Comment on se réveille quand on est devenu tiède ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Croyante depuis toujours, jamais révoltée, jamais partie. Mais depuis quelques années, tout tourne à vide : elle récite sans prier, assiste sans attendre. Elle envie presque les convertis récents, avec leur feu. Elle, elle a l'impression d'une veilleuse qui baisse sans que personne s'en aperçoive."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« D'abord, regarde ce que ta question révèle : les tièdes installés ne demandent pas comment se réveiller. Ta lampe baisse, mais tu veilles encore, puisque tu t'inquiètes de la flamme. Ce souci qui t'a fait m'écrire, c'est déjà l'Esprit qui souffle sur la braise. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Ensuite, cesse de confondre le feu et la fidélité. Les émotions des débuts sont un carburant de démarrage, pas le moteur. Jésus ne dit pas : heureux les serviteurs qui frissonnent. Il dit : heureux ceux qu'il trouvera en train de veiller. Tenir sa lampe sans rien sentir, c'est de l'amour à l'état pur. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Enfin, remets de l'attente dans tes journées : l'habitude a tué l'attente, pas la foi. Chaque matin, une seule phrase : Seigneur, si tu passais aujourd'hui, que je ne te manque pas. Et le soir, cherche où il est passé. Tu verras : on ne s'ennuie jamais longtemps avec quelqu'un qu'on attend. »"
+    },
+    {
+      "type": "punch",
+      "text": "Ce n'est pas le feu qui manque, c'est l'attente. On ne s'endort que quand on n'attend plus personne."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
