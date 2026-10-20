@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Depuis que je suis revenu à la foi, les repas de famille sont tendus. Ma mère dit que je suis tombé dans une secte, mon frère me charrie. Dois-je me taire pour garder la paix ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#famille #conversion #paix #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Depuis que je suis revenu à la foi, les repas de famille sont tendus. Ma mère dit que je suis tombé dans une secte. Dois-je me taire pour garder la paix ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Revenu à la foi il y a un an, après des années loin de tout. Sa famille, qui ne pratique pas, oscille entre moquerie et inquiétude : les vannes de son frère au dessert, les soupirs de sa mère quand il part à la messe. Lui encaisse, et commence à éviter les dimanches."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Jésus avait prévenu : le feu qu'il apporte divise parfois une même table. Ce que tu vis n'est pas un échec de ta foi, c'est presque sa signature. Ta famille ne réagit pas à tes idées : elle réagit à un changement réel chez quelqu'un qu'elle croyait connaître. Ça inquiète toujours. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Distingue le feu de la provocation. Ce qui doit parler, c'est ta vie changée : ta patience au dessert, justement. Pas tes démonstrations. Tais-toi sur l'accessoire, les débats qu'on te tend comme des pièges. Mais ne t'excuse jamais d'exister : éviter les dimanches, c'est déjà t'éteindre. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Et aime-les davantage qu'avant, visiblement, obstinément. C'est le seul argument que personne ne peut retourner. Un converti qui rappelle sa mère plus souvent qu'avant sa conversion fait plus pour la foi que tous les débats du dimanche. La paix du Christ viendra par là. »"
+    },
+    {
+      "type": "punch",
+      "text": "Ne te tais pas, ne t'enflamme pas : aime-les plus qu'avant. C'est le seul argument imparable."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
