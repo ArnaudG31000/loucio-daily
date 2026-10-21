@@ -1,1 +1,1 @@
-2026-10-20T15:55Z — maintenance routine : matin 20/10 publié OK, soir 19/10 OK, stock rédigé jusqu'au 22/10 (évangile Lc 12,49-53 St Jean-Paul II + réponse sauge), liturgie 22/10 récupérée via workflow_dispatch. RAS.
+2026-10-21T15:55Z — maintenance routine : matin 21/10 publié OK, soir 20/10 OK, stock rédigé jusqu'au 23/10 (évangile Lc 12,54-59 lire le moment présent + récit nuit), liturgie 23/10 récupérée via workflow_dispatch. RAS.
