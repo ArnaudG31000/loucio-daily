@@ -1,1 +1,1 @@
-2026-10-23T15:55Z — maintenance routine : matin 23/10 publié OK, soir 22/10 OK, stock rédigé jusqu'au 25/10 (évangile Mt 16,13-19 Dédicace solennité + récit nuit), liturgie 25/10 récupérée via workflow_dispatch. RAS.
+2026-10-24T15:55Z — maintenance routine : matin 24/10 publié OK, soir 23/10 OK, stock rédigé jusqu'au 26/10 (évangile Lc 13,10-17 femme courbée + réponse sauge), liturgie 26/10 récupérée via workflow_dispatch. RAS.
