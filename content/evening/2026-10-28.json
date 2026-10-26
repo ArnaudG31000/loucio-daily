@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« À la paroisse, tout le monde semble plus doué, plus saint, plus solide que moi. Je n'ose rien proposer. Dieu peut-il vraiment vouloir de quelqu'un d'aussi ordinaire ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#vocation #ordinaire #servir #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« À la paroisse, tout le monde semble plus doué, plus saint, plus solide que moi. Je n'ose rien proposer. Dieu peut-il vraiment vouloir de quelqu'un d'aussi ordinaire ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Elle sert le café après la messe, et encore, en se demandant si elle le fait bien. Autour d'elle, des catéchistes éloquentes, des chefs de chœur, des théologiens du dimanche. Elle, rien de spécial à offrir, pense-t-elle. Alors elle reste au bord, persuadée que l'appel, c'est pour les autres."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Regarde comment Jésus a recruté : une nuit de prière, puis des pêcheurs, un percepteur d'impôts détesté, un révolutionnaire. Pas un notable, pas un diplômé du Temple. Ce n'était pas un casting sur dossier. Il ne choisit pas les qualifiés : il qualifie ceux qu'il choisit. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Et parmi les Douze, Simon et Jude, fêtés aujourd'hui : trois lignes dans l'évangile, aucun exploit raconté. Des apôtres dont on ne sait presque rien, et l'Église tient aussi sur eux. Être discret n'a jamais voulu dire être inutile. Ton café d'après-messe est une pierre de l'édifice. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Ta question est à l'envers : tu demandes qui suis-je pour servir, quand la seule qualification est d'être appelé. Ne cherche pas le grand rôle : fais pleinement la chose ordinaire qui est déjà entre tes mains, et dis oui à la prochaine qu'on te proposera. C'est ainsi qu'on devient apôtre : un oui à la fois. »"
+    },
+    {
+      "type": "punch",
+      "text": "L'Église tient sur des apôtres dont on ne sait presque rien. Il ne choisit pas les qualifiés : il qualifie ceux qu'il choisit."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}

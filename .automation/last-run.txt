@@ -1,1 +1,1 @@
-2026-10-25T15:55Z — maintenance routine : matin 25/10 publié OK, soir 24/10 OK, passage heure d'hiver sans impact (fenêtres larges), stock rédigé jusqu'au 27/10 (évangile Lc 13,18-21 graine de moutarde + récit nuit), liturgie 27/10 récupérée via workflow_dispatch. RAS.
+2026-10-26T15:55Z — maintenance routine : matin 26/10 publié OK, soir 25/10 OK, stock rédigé jusqu'au 28/10 (évangile Lc 6,12-19 Sts Simon et Jude + réponse sauge), liturgie 28/10 récupérée via workflow_dispatch. RAS.
