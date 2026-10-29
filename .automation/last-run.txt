@@ -1,1 +1,1 @@
-2026-10-28T15:55Z — maintenance routine : matin 28/10 publié OK, soir 27/10 OK, stock rédigé jusqu'au 30/10 (évangile Lc 14,1-6 guérison au sabbat + réponse sauge), liturgie 30/10 récupérée via workflow_dispatch. RAS.
+2026-10-29T16:10Z — maintenance routine : matin 29/10 publié OK, soir 28/10 OK, stock rédigé jusqu'au 31/10 (évangile Lc 14,1.7-11 premières places + récit nuit), liturgie 31/10 récupérée via workflow_dispatch. RAS.

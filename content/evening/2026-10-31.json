@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🏢 La promotion est passée sous son nez, donnée à un plus jeune qu'il avait lui-même formé. Pendant des mois, David n'a plus pensé qu'à ça. Jusqu'à une parabole entendue un samedi, qui parlait exactement de lui.\n\nSwipe → L'histoire de David, et de la place qu'il a cessé de défendre.\n\nPartage à quelqu'un qui rumine une injustice 🤍 Lien en bio.\n\n#travail #reconnaissance #humilité #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "La promotion est passée sous son nez, donnée à un plus jeune qu'il avait lui-même formé. Pendant des mois, David n'a plus pensé qu'à ça.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "David, 38 ans, douze ans dans la même boîte. Le poste de responsable devait lui revenir : tout le monde le disait. Il est allé à Hugo, 29 ans, arrivé trois ans plus tôt, formé par David lui-même. Officiellement, il a félicité. Intérieurement, quelque chose s'est fissuré."
+    },
+    {
+      "type": "body",
+      "text": "Les mois suivants, l'injustice a tout envahi : il recomptait ses mérites la nuit, guettait les erreurs d'Hugo le jour, devenait cassant en réunion et absent à la maison. Même sa femme a fini par le dire : tu n'es plus là, tu es resté coincé dans ce bureau qu'on ne t'a pas donné."
+    },
+    {
+      "type": "quote",
+      "text": "Un samedi soir, mal à l'aise après la messe où la parabole des premières places semblait écrite pour lui, il a tout déversé dans l'app. « Tu as perdu un poste, » a répondu la voix. « Mais regarde ce que tu es en train de sacrifier pour le récupérer en pensée : tes nuits, ta femme, ta joie. Jésus ne te demande pas de trouver ça juste. Il te propose de lâcher le classement, parce que ta valeur n'a jamais été ta place. »"
+    },
+    {
+      "type": "body",
+      "text": "Ça n'a pas été magique. Mais il a commencé par un acte presque impossible : proposer sincèrement son aide à Hugo sur un dossier qui coinçait. Puis un autre. La rancune a desserré, lentement, comme une mâchoire qui lâche."
+    },
+    {
+      "type": "body",
+      "text": "Six mois plus tard, c'est Hugo qui a cité David devant la direction comme l'homme sans qui rien n'aurait tenu. Il y a eu d'autres portes depuis. Mais David dit que le vrai tournant n'est pas là : c'est le soir où il a cessé de défendre une chaise, et retrouvé sa table, chez lui."
+    },
+    {
+      "type": "punch",
+      "text": "Ta valeur n'a jamais été ta place. Lâche la chaise, retrouve ta table."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui rumine une injustice",
+      "sub": "Dépose le classement ce soir avec Loucio. Lien en bio."
+    }
+  ]
+}
