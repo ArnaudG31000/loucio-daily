@@ -1,1 +1,1 @@
-2026-10-31T15:55Z — maintenance routine : matin 31/10 publié OK, soir 30/10 OK, stock rédigé jusqu'au 2/11 (évangile Jn 6,37-40 fidèles défunts + récit nuit), liturgie 2/11 récupérée via workflow_dispatch. RAS.
+2026-11-01T15:55Z — maintenance routine : matin 1/11 (Toussaint) publié OK, soir 31/10 OK, stock rédigé jusqu'au 3/11 (évangile Lc 14,15-24 grand dîner + réponse sauge), liturgie 3/11 récupérée via workflow_dispatch. RAS.
