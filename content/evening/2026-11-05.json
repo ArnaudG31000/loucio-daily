@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Ça fait quinze ans que je n'ai pas mis les pieds dans une église. J'aimerais revenir, mais j'ai honte : peur du regard des gens, peur de ne plus savoir comment faire. On revient comment, concrètement ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#retour #église #honte #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Ça fait quinze ans que je n'ai pas mis les pieds dans une église. J'aimerais revenir, mais j'ai honte : peur du regard des gens, peur de ne plus savoir comment faire. On revient comment ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Parti après le lycée, sans fracas : la vie, simplement. Mais depuis quelques mois, une attirance têtue le ramène vers les églises. Il entre parfois quand elles sont vides. Le dimanche, en revanche, le paralyse : les habitués, les gestes oubliés, la certitude d'être démasqué comme celui qui revient."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« Regarde ce que fait le berger quand il retrouve sa brebis après tout ce temps : pas une question, pas un reproche, pas un où étais-tu. Il la porte sur ses épaules, tout joyeux, et il organise une fête. Jésus l'a promis : ton retour déclenchera de la joie dans le ciel. Pas un procès. Une fête. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Ta honte imagine un tribunal plein de regards. La vérité est plus humble : la plupart des gens te remarqueront à peine, et ceux qui te remarqueront se réjouiront, parce que beaucoup prient justement pour que des gens comme toi reviennent. Et surtout : pendant que tu hésitais sur le seuil, c'est Dieu qui te cherchait déjà. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Alors reviens simple. Commence par une messe en semaine, presque vide, sans enjeu : tu réapprendras les gestes en paix. Puis un dimanche, au fond si tu veux. Et quand tu seras prêt, va voir un prêtre et dis-lui juste : je reviens de loin. La confession n'est pas un interrogatoire : ce sont des retrouvailles. »"
+    },
+    {
+      "type": "punch",
+      "text": "Ton retour ne déclenchera pas un procès. Il déclenchera une fête."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
