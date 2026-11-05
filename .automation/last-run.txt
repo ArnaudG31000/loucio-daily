@@ -1,1 +1,1 @@
-2026-11-04T15:55Z — maintenance routine : matin 4/11 publié OK, soir 3/11 OK, stock rédigé jusqu'au 6/11 (évangile Lc 16,1-8 gérant habile + récit nuit), liturgie 6/11 récupérée via workflow_dispatch. RAS.
+2026-11-05T15:55Z — maintenance routine : matin 5/11 publié OK, soir 4/11 OK, stock rédigé jusqu'au 7/11 (évangile Lc 16,9-15 fidélité petites choses + réponse sauge), liturgie 7/11 récupérée via workflow_dispatch. RAS.
