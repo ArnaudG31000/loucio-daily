@@ -1,1 +1,1 @@
-2026-11-06T15:55Z — maintenance routine : matin 6/11 publié OK, soir 5/11 OK, stock rédigé jusqu'au 8/11 (évangile Mt 25,1-13 dix vierges 32e dimanche + récit nuit), liturgie 8/11 récupérée via workflow_dispatch. RAS.
+2026-11-07T15:55Z — maintenance routine : matin 7/11 publié OK, soir 6/11 OK, stock rédigé jusqu'au 9/11 (évangile Jn 2,13-22 Dédicace du Latran + réponse sauge), liturgie 9/11 récupérée via workflow_dispatch. RAS.
