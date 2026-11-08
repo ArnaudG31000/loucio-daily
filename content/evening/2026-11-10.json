@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "💐 Vingt ans qu'elle fleurit l'église, prépare la salle du caté, ferme après tout le monde. Personne ne dit merci. Cette année, Monique a failli tout arrêter. Ce qui l'a retenue tient en une phrase.\n\nSwipe → L'histoire de Monique, et de l'amertume des serviteurs.\n\nPartage à quelqu'un qui donne beaucoup et reçoit peu 🤍 Lien en bio.\n\n#bénévolat #service #gratuité #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Vingt ans qu'elle fleurit l'église et ferme après tout le monde. Personne ne dit merci. Cette année, Monique a failli tout arrêter.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Monique, 58 ans. À la paroisse, elle est partout et invisible : les fleurs, les clés, la salle du caté, les chaises. Pendant des années, elle a trouvé ça normal. Puis l'amertume s'est infiltrée : pas un merci du nouveau curé, les jeunes mamans qui la traversent du regard, sa fête de bénévoles où on a oublié son prénom."
+    },
+    {
+      "type": "body",
+      "text": "Un mardi soir, après avoir rangé seule soixante chaises, elle a craqué. Dans la voiture, elle a dicté sa démission mentale à Loucio : vingt ans, et je compte pour rien. Je crois que j'arrête tout."
+    },
+    {
+      "type": "quote",
+      "text": "« Avant d'arrêter, réponds à une question, » a dit la voix. « Ces vingt ans, tu les as donnés à Dieu ou au merci qui n'est pas venu ? Je ne te juge pas : le merci devait venir, et ceux qui t'entourent ont une vraie dette. Mais toi, tu as mieux à faire que l'attendre. Jésus a montré la sortie : nous sommes de simples serviteurs. Ce n'est pas de l'écrasement. C'est la liberté de ceux qui ne mendient plus. »"
+    },
+    {
+      "type": "body",
+      "text": "Elle a tourné la phrase une semaine entière. Puis elle a fait deux choses. Elle a parlé au curé, calmement, de ce que les invisibles de la paroisse portent, et il a entendu. Et elle a changé sa prière du matin : Seigneur, aujourd'hui je sers pour toi. Toi seul. Les mercis seront du bonus."
+    },
+    {
+      "type": "body",
+      "text": "Elle a gardé les fleurs et les clés. L'amertume, elle, est partie presque d'un coup, comme une dette qu'on cesse de réclamer. Et curieusement, depuis qu'elle n'attend plus les mercis, il en arrive. Elle les reçoit en souriant : du bonus."
+    },
+    {
+      "type": "punch",
+      "text": "Simple serviteur, ce n'est pas de l'écrasement. C'est la liberté de ceux qui ne mendient plus."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui donne beaucoup et reçoit peu",
+      "sub": "Dépose ton amertume ce soir avec Loucio. Lien en bio."
+    }
+  ]
+}

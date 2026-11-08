@@ -1,1 +1,1 @@
-2026-11-07T15:55Z — maintenance routine : matin 7/11 publié OK, soir 6/11 OK, stock rédigé jusqu'au 9/11 (évangile Jn 2,13-22 Dédicace du Latran + réponse sauge), liturgie 9/11 récupérée via workflow_dispatch. RAS.
+2026-11-08T15:55Z — maintenance routine : matin 8/11 publié OK, soir 7/11 OK, stock rédigé jusqu'au 10/11 (évangile Lc 17,7-10 simples serviteurs + récit nuit), liturgie 10/11 récupérée via workflow_dispatch. RAS.
