@@ -1,0 +1,41 @@
+{
+  "format": "reponse",
+  "theme": "sauge",
+  "caption": "« Quand ça va mal, je prie sans arrêt. Dès que ça va mieux, j'oublie Dieu complètement, parfois pendant des mois. Je me reconnais dans les neuf lépreux et ça me fait honte. Comment on devient reconnaissant ? » : question reçue cette semaine.\n\nSwipe pour lire la réponse de Loucio →\n\nPose ta question en commentaire, Loucio répond en vidéo aux plus fortes 🎙️ Lien en bio.\n\n#gratitude #prière #merci #foi #catholique",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "« Quand ça va mal, je prie sans arrêt. Dès que ça va mieux, j'oublie Dieu complètement. Je me reconnais dans les neuf lépreux et ça me fait honte. Comment on devient reconnaissant ? »",
+      "sub": "Question reçue cette semaine.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Son historique de prière ressemble à un sismographe : des pics d'intensité à chaque crise, un licenciement, la maladie d'un parent, un cœur brisé, puis des plaines de silence dès que l'orage passe. À chaque relecture, la même honte : Dieu comme numéro d'urgence, jamais comme ami."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 1/3",
+      "text": "« D'abord, dépose la honte : les neuf lépreux n'étaient pas des monstres. Ils ont fait exactement ce qu'on leur a dit, puis la vie retrouvée les a happés. L'oubli est le mode par défaut de tout homme comblé. La gratitude, elle, est un acte : revenir sur ses pas. Elle ne se ressent pas d'abord, elle se décide. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 2/3",
+      "text": "« Ensuite, mesure l'enjeu : les dix ont été guéris, mais un seul s'est entendu dire ta foi t'a sauvé. La différence n'est pas la santé, elle est la rencontre. Prier seulement dans la crise, c'est utiliser Dieu. Revenir dire merci, c'est le connaître. Tu ne perds pas des politesses : tu perds des rencontres. »"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "la réponse de loucio · 3/3",
+      "text": "« Alors installe le rituel du retour. Chaque soir, trois mercis précis, nommés, datés du jour : pas merci pour tout, merci pour ce café avec Léa. Et règle d'or : chaque prière exaucée a droit à son retour sur les pas, avec la même intensité que l'appel au secours. Tu as crié ? Reviens crier merci. »"
+    },
+    {
+      "type": "punch",
+      "text": "Dix ont été guéris, un seul a été sauvé. La différence : il est revenu dire merci."
+    },
+    {
+      "type": "cta",
+      "text": "Pose ta question en commentaire",
+      "sub": "Loucio répond en vidéo aux questions les plus fortes. En privé, il répond à toutes. Lien en bio."
+    }
+  ]
+}
