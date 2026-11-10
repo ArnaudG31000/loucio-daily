@@ -1,1 +1,1 @@
-2026-11-09T15:55Z — maintenance routine : matin 9/11 publié OK, soir 8/11 OK, stock rédigé jusqu'au 11/11 (évangile Lc 17,11-19 dix lépreux St Martin + réponse sauge), liturgie 11/11 récupérée via workflow_dispatch, worktree recréé après remplacement du conteneur. RAS.
+2026-11-10T15:50Z — maintenance routine : matin 10/11 publié OK, soir 9/11 OK, stock rédigé jusqu'au 12/11 (évangile Lc 17,20-25 règne au milieu de vous + récit nuit), liturgie 12/11 déjà en place via fetch quotidien. RAS.
