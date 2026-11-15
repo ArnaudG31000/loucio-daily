@@ -1,1 +1,1 @@
-2026-11-14T15:55Z — maintenance routine : matin 14/11 publié OK, soir 13/11 OK, stock rédigé jusqu'au 16/11 (évangile Lc 18,35-43 aveugle de Jéricho + récit nuit), liturgie 16/11 récupérée via workflow_dispatch. RAS.
+2026-11-15T15:55Z — maintenance routine : matin 15/11 publié OK, soir 14/11 OK, stock rédigé jusqu'au 17/11 (évangile Lc 19,1-10 Zachée + réponse sauge), liturgie 17/11 récupérée via workflow_dispatch. RAS.
