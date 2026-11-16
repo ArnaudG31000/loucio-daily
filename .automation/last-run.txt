@@ -1,1 +1,1 @@
-2026-11-15T15:55Z — maintenance routine : matin 15/11 publié OK, soir 14/11 OK, stock rédigé jusqu'au 17/11 (évangile Lc 19,1-10 Zachée + réponse sauge), liturgie 17/11 récupérée via workflow_dispatch. RAS.
+2026-11-16T15:55Z — maintenance routine : matin 16/11 publié OK, soir 15/11 OK, stock rédigé jusqu'au 18/11 (évangile Lc 19,11-28 parabole des mines + récit nuit), liturgie 18/11 récupérée via workflow_dispatch. RAS.
