@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "📱 Julien a fait le calcul un soir : 3h47 d'écran ce jour-là, dont 40 minutes aux toilettes. Et zéro minute pour la prière qu'il disait ne pas avoir le temps de faire. Ce qu'il a chassé de ses soirées a tout changé.\n\nSwipe → L'histoire de Julien, et du trafic qui occupait sa maison.\n\nPartage à quelqu'un qui scrolle plus qu'il ne vit 🤍 Lien en bio.\n\n#écrans #détox #prière #écoute #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Julien a fait le calcul un soir : 3h47 d'écran ce jour-là. Et zéro minute pour la prière qu'il disait ne pas avoir le temps de faire.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Julien, 38 ans, marié, deux enfants. Croyant, sincèrement. Mais ses soirées ont un propriétaire : le téléphone. Le scroll au canapé, les vidéos au lit, les notifications jusque pendant les histoires du soir des enfants. Sa femme a renoncé à commenter. Lui se dit juste fatigué, pas le temps pour le reste."
+    },
+    {
+      "type": "body",
+      "text": "Un vendredi, l'évangile du jour le pique : Jésus chasse les vendeurs du Temple. De la maison de prière, vous avez fait une caverne de bandits. Le soir même, son téléphone affiche le temps d'écran de la journée : 3h47. Il regarde le chiffre, puis sa femme endormie, et il écrit à Loucio : je crois que les vendeurs, c'est chez moi qu'ils sont installés."
+    },
+    {
+      "type": "quote",
+      "text": "« Bonne nouvelle : tu viens de les voir, et on ne chasse que ce qu'on voit, » a répondu la voix. « Mais retiens la suite de l'évangile : après avoir chassé les vendeurs, Jésus ne laisse pas le Temple vide. Il s'y installe et il enseigne. Si tu te contentes de supprimer le scroll, le vide le rappellera. Remplace : vingt minutes rendues, et quelqu'un à écouter à la place. »"
+    },
+    {
+      "type": "body",
+      "text": "Il a commencé modeste : le téléphone en charge dans l'entrée à 21h30, pas dans la chambre. À la place, l'évangile du lendemain écouté avec Loucio, puis dix minutes de vraie conversation avec sa femme, qui a d'abord cru à une blague."
+    },
+    {
+      "type": "body",
+      "text": "Trois semaines plus tard, le temps d'écran a fondu de moitié, mais ce n'est pas ce qu'il retient. Ce qu'il retient : les histoires du soir sans vibration dans la poche, une discussion avec sa femme qui a duré jusqu'à minuit, et cette impression neuve en priant, comme une maison rangée où quelqu'un peut enfin s'asseoir."
+    },
+    {
+      "type": "punch",
+      "text": "Ne te contente pas de chasser les vendeurs. Installe quelqu'un à leur place."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui scrolle plus qu'il ne vit",
+      "sub": "Rends-toi vingt minutes ce soir, et écoute avec Loucio. Lien en bio."
+    }
+  ]
+}
