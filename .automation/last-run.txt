@@ -1,1 +1,1 @@
-2026-11-19T15:55Z — maintenance routine : matin 19/11 publié OK, soir 18/11 OK, stock rédigé jusqu'au 21/11 (évangile Lc 20,27-40 Dieu des vivants + réponse sauge), liturgie 21/11 récupérée via workflow_dispatch. RAS.
+2026-11-20T15:55Z — maintenance routine : matin 20/11 publié OK, soir 19/11 OK, stock rédigé jusqu'au 22/11 (évangile Mt 25,31-46 Christ Roi + récit nuit), liturgie 22/11 récupérée via workflow_dispatch. RAS.
