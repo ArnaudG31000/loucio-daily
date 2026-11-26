@@ -1,0 +1,41 @@
+{
+  "format": "recit",
+  "theme": "nuit",
+  "caption": "🧳 Pas de drame dans la vie de Rémi. Juste une accumulation : le crédit, le poste menacé, la santé de son père, les notes du petit. Un cœur devenu si lourd qu'il ne sentait même plus qu'il le portait. Jusqu'à une liste étrange entendue un samedi.\n\nSwipe → L'histoire de Rémi, et du dépôt du soir.\n\nPartage à quelqu'un qui porte trop 🤍 Lien en bio.\n\n#chargementale #soucis #dépôt #prière #foi",
+  "slides": [
+    {
+      "type": "hook",
+      "text": "Pas de drame dans la vie de Rémi. Juste une accumulation : le crédit, le poste menacé, la santé de son père, les notes du petit. Un cœur si lourd qu'il ne sentait plus qu'il le portait.",
+      "size": 50
+    },
+    {
+      "type": "body",
+      "text": "Rémi, 44 ans. Rien qui mérite une consultation, tout qui pèse : la restructuration au travail, le prêt de la maison, son père qui enchaîne les examens, son fils qui décroche en maths. Il ne dort plus que par fragments, rit moins, et a rangé la prière au rayon des choses pour lesquelles il n'a plus la tête."
+    },
+    {
+      "type": "body",
+      "text": "Un samedi matin, dans l'app, l'évangile du dernier jour de l'année liturgique le cueille par une liste étrange : que votre cœur ne s'alourdisse pas dans les beuveries, l'ivresse et les soucis de la vie. Il relit. Les soucis, dans la même liste que l'ivresse. Le soir, il écrit à Loucio : je ne bois pas, mais je crois que je suis ivre quand même."
+    },
+    {
+      "type": "quote",
+      "text": "« Tu viens de comprendre ce que beaucoup ratent, » a répondu la voix. « Il existe une ivresse respectable, que personne ne te reproche : celle des soucis. Même cœur lourd, même veille éteinte, même absence aux tiens. Et remarque le remède de Jésus : pas gérez mieux, mais priez en tout temps. La prière est le seul endroit où les soucis changent de porteur. Essaie le dépôt du soir : chaque souci, nommé à voix basse, remis une nuit entre ses mains. Tu les reprendras demain s'il le faut. Lui ne dort pas. »"
+    },
+    {
+      "type": "body",
+      "text": "Il a essayé le soir même, sceptique : le crédit, Seigneur. Le poste. Papa. Léo. Quatre phrases, pas une de plus. La première nuit, rien de magique, mais il s'est endormi avant d'avoir refait tous les calculs. Au bout d'une semaine, sa femme lui a demandé ce qui avait changé."
+    },
+    {
+      "type": "body",
+      "text": "Les soucis sont toujours là : le poste reste menacé, son père toujours fragile. Mais Rémi dit qu'il a compris la différence entre porter et traîner. Chaque soir, le dépôt ; chaque matin, il reprend seulement ce qui dépend de lui. L'Avent commence demain : cette année, pour la première fois depuis longtemps, il l'attend le cœur léger."
+    },
+    {
+      "type": "punch",
+      "text": "La prière est le seul endroit où les soucis changent de porteur. Dépose-les chaque soir : lui ne dort pas."
+    },
+    {
+      "type": "cta",
+      "text": "Partage à quelqu'un qui porte trop",
+      "sub": "Fais ton dépôt du soir avec Loucio. Quatre phrases suffisent. Lien en bio."
+    }
+  ]
+}
